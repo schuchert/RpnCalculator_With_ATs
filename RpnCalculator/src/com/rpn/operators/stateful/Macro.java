@@ -2,26 +2,27 @@ package com.rpn.operators.stateful;
 
 import java.util.ArrayList;
 
-import com.rpn.IOperator;
-import com.rpn.RpnStack;
+import com.rpn.*;
 
-public class Macro implements ICompositeOperator {
-
+public class Macro extends CompositeOperator {
     private ArrayList<IOperator> steps = new ArrayList<IOperator>();
 
     @Override
     public void execute(RpnStack values) {
-        for(IOperator current : steps)
+        for (IOperator current : steps)
             current.execute(values);
     }
 
-    @Override
     public void append(IOperator step) {
+        validateAppend(step);
         steps.add(step);
     }
-    
+
     @Override
-    public boolean includes(IOperator step) {
-        return steps.contains(step);
+    public boolean includesAnyIn(CompositeOperator composite) {
+        for (IOperator current : steps)
+            if (current.equals(composite) || asCompositeOperator(current).includesAnyIn(composite))
+                return true;
+        return false;
     }
 }
