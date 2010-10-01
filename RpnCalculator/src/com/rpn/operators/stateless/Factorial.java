@@ -1,5 +1,7 @@
 package com.rpn.operators.stateless;
 
+import java.math.BigDecimal;
+
 import com.rpn.IOperator;
 import com.rpn.RegisteredName;
 import com.rpn.RpnStack;
@@ -8,13 +10,12 @@ import com.rpn.RpnStack;
 public class Factorial implements IOperator {
 
     public void execute(RpnStack values) {
-        int operand = values.pop();
+        BigDecimal operand = values.pop();
 
-        int result = 1;
-        for (int i = 2; i <= operand; ++i)
-            result *= i;
+        BigDecimal result = BigDecimal.ONE;
+        for (BigDecimal i = new BigDecimal(2); i.compareTo(operand) <= 0; i = i.add(BigDecimal.ONE))
+            result = result.multiply(i);
 
         values.push(result);
     }
-
 }

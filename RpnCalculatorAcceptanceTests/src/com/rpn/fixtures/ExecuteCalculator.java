@@ -15,7 +15,6 @@ public class ExecuteCalculator {
     }
 
     public void reset() {
-        System.out.println("resetting calculator");
         calculator = new RpnCalculator();
     }
 

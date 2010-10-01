@@ -1,11 +1,13 @@
 package com.rpn.operators.stateless;
 
-import static org.junit.Assert.*;
+import java.math.BigDecimal;
 
 import org.junit.Test;
 
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
+
+import static org.junit.Assert.assertEquals;
 
 public class PrimeFactorsTest {
     RpnStack values = RpnStackObjectMother.build();
@@ -31,7 +33,7 @@ public class PrimeFactorsTest {
     }
 
     private void thenExpect(int value) {
-        assertEquals(value, values.pop());
+        assertEquals(new BigDecimal(value), values.pop());
     }
 
     private void whenCalculatingItsPrimeFactors() {

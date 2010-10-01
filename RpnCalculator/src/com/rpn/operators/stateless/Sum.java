@@ -1,14 +1,16 @@
 package com.rpn.operators.stateless;
 
+import java.math.BigDecimal;
+
 import com.rpn.IOperator;
 import com.rpn.RpnStack;
 
 public class Sum implements IOperator {
     @Override
     public void execute(RpnStack values) {
-        int sum = 0;
+        BigDecimal sum = BigDecimal.ZERO;
         while (values.size() > 0)
-            sum += values.pop();
+            sum = sum.add(values.pop());
         values.push(sum);
     }
 }

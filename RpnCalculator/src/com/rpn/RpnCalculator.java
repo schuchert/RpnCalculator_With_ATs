@@ -1,5 +1,7 @@
 package com.rpn;
 
+import java.math.BigDecimal;
+
 import com.rpn.factory.OperatorFactory;
 import com.rpn.operators.stateful.Macro;
 
@@ -25,7 +27,7 @@ public class RpnCalculator {
         op.execute(values);
     }
 
-    public int getDisplay() {
+    public BigDecimal getDisplay() {
         return values.peek();
     }
 
@@ -36,7 +38,7 @@ public class RpnCalculator {
     public void addMacroNamed(String candidateName, String program) {
         String[] stepNames = program.split(" +");
         start();
-        for(String currentName : stepNames)
+        for (String currentName : stepNames)
             addStep(currentName);
         save(candidateName);
     }

@@ -1,13 +1,14 @@
 package com.rpn.operators.stateless;
 
-import static org.junit.Assert.*;
+import java.math.BigDecimal;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
-import com.rpn.operators.stateless.Drop;
+
+import static org.junit.Assert.assertEquals;
 
 public class DropTest {
     RpnStack stack;
@@ -20,7 +21,7 @@ public class DropTest {
     
     @Test
     public void topElementRemoved() {
-        assertEquals(4, stack.peek());
+        assertEquals(new BigDecimal(4), stack.peek());
     }
     
     @Test

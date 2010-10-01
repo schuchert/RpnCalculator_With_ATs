@@ -1,6 +1,6 @@
 package com.rpn.operators.stateless;
 
-import static org.junit.Assert.*;
+import java.math.BigDecimal;
 
 import org.junit.Test;
 
@@ -8,31 +8,30 @@ import com.rpn.IOperator;
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
 
+import static org.junit.Assert.assertEquals;
+
 public class GreaterThenOrEqualToTest {
-    RpnStack stack = RpnStackObjectMother.build();
+    RpnStack stack;
     IOperator op = new GreaterThenOrEqualTo();
-    
+
     @Test
     public void trueWhenEqual() {
-        stack.push(4);
-        stack.push(4);
+        stack = RpnStackObjectMother.build(4, 4);
         op.execute(stack);
-        assertEquals(1, stack.peek());
+        assertEquals(BigDecimal.ONE, stack.peek());
     }
-    
+
     @Test
     public void trueWhenGreaterThen() {
-        stack.push(4);
-        stack.push(3);
+        stack = RpnStackObjectMother.build(4, 3);
         op.execute(stack);
-        assertEquals(1, stack.peek());
+        assertEquals(BigDecimal.ONE, stack.peek());
     }
-    
+
     @Test
     public void falseWhenLessThen() {
-        stack.push(4);
-        stack.push(5);
+        stack = RpnStackObjectMother.build(4, 5);
         op.execute(stack);
-        assertEquals(0, stack.peek());
+        assertEquals(BigDecimal.ZERO, stack.peek());
     }
 }

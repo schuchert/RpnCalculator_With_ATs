@@ -1,10 +1,12 @@
 package com.rpn.fixtures;
 
+import java.math.BigDecimal;
+
 
 public class ProgrammingTheCalculator {
 
     public boolean xIs(int value) {
-        return ExecuteCalculator.calculator.getDisplay() == value;
+        return ExecuteCalculator.calculator.getDisplay().compareTo(new BigDecimal(value)) == 0;
     }
     
     public void enter(int value) {

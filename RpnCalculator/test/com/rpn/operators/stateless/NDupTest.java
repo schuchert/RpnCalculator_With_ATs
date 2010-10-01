@@ -1,13 +1,13 @@
 package com.rpn.operators.stateless;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.junit.Test;
 
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
-import com.rpn.operators.stateless.NDup;
+import static com.rpn.testutil.BigDecimalTestUtil.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class NDupTest {
     RpnStack stack;
@@ -20,11 +20,11 @@ public class NDupTest {
 
     @Test
     public void duplicateTopEntriesCorrectly() {
-        assertEquals(7, stack.pop());
-        assertEquals(6, stack.pop());
-        assertEquals(7, stack.pop());
-        assertEquals(6, stack.pop());
-        assertEquals(4, stack.pop());
+        assertThatValuesMatch(7, stack.pop());
+        assertThatValuesMatch(6, stack.pop());
+        assertThatValuesMatch(7, stack.pop());
+        assertThatValuesMatch(6, stack.pop());
+        assertThatValuesMatch(4, stack.pop());
     }
 
     @Test

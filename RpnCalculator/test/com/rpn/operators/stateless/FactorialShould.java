@@ -1,12 +1,11 @@
 package com.rpn.operators.stateless;
 
-import static org.junit.Assert.assertEquals;
+import static com.rpn.testutil.BigDecimalTestUtil.assertThatValuesMatch;
 
 import org.junit.Test;
 
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
-import com.rpn.operators.stateless.Factorial;
 
 public class FactorialShould {
     @Test
@@ -15,7 +14,6 @@ public class FactorialShould {
         values.push(5);
         Factorial op = new Factorial();
         op.execute(values);
-        assertEquals(120, (int) values.peek());
+        assertThatValuesMatch(120, values.peek());
     }
-
 }

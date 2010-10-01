@@ -1,20 +1,18 @@
 package com.rpn.operators.stateless;
 
+import java.math.BigDecimal;
+
 import com.rpn.IOperator;
 import com.rpn.RpnStack;
 
 public abstract class BinaryOperator implements IOperator {
 
-    public BinaryOperator() {
-        super();
-    }
-
-    protected abstract int figure(int lhs, int rhs);
+    protected abstract BigDecimal figure(BigDecimal lhs, BigDecimal rhs);
 
     public void execute(RpnStack values) {
-        int rhs = values.pop();
-        int lhs = values.pop();
-        int result = figure(lhs, rhs);
+        BigDecimal rhs = values.pop();
+        BigDecimal lhs = values.pop();
+        BigDecimal result = figure(lhs, rhs);
         values.push(result);
     }
 

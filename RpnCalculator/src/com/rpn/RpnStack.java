@@ -1,27 +1,32 @@
 package com.rpn;
 
+import java.math.BigDecimal;
 import java.util.Stack;
 
 public class RpnStack {
-    private Stack<Integer> values = new Stack<Integer>();
+    private Stack<BigDecimal> values = new Stack<BigDecimal>();
 
-    public int pop() {
+    public BigDecimal pop() {
         if (values.size() > 0)
             return values.pop();
-        return 0;
+        return BigDecimal.ZERO;
     }
 
-    public int peek() {
+    public BigDecimal peek() {
         if (values.size() > 0)
             return values.peek();
-        return 0;
+        return BigDecimal.ZERO;
     }
 
-    public void push(int value) {
+    public void push(BigDecimal value) {
         values.push(value);
     }
 
     public int size() {
         return values.size();
+    }
+
+    public void push(int value) {
+        push(new BigDecimal(value));
     }
 }

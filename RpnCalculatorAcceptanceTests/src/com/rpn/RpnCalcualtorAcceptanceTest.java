@@ -1,9 +1,11 @@
 package com.rpn;
 
-import static org.junit.Assert.assertEquals;
+import java.math.BigDecimal;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class RpnCalcualtorAcceptanceTest {
     RpnCalculator calculator;
@@ -14,7 +16,7 @@ public class RpnCalcualtorAcceptanceTest {
     }
 
     void resultWas(int value) {
-        assertEquals(value, calculator.getDisplay());
+        assertEquals(new BigDecimal(value), calculator.getDisplay());
     }
 
     @Test
@@ -96,14 +98,14 @@ public class RpnCalcualtorAcceptanceTest {
         calculator.save("ams");
         verifyAmsMacroWorks();
     }
-    
+
     private void verifyAmsMacroWorks() {
         calculator.enter(3);
         calculator.enter(5);
         calculator.enter(2);
         calculator.enter(13);
         calculator.perform("ams");
-        assertEquals(-72, calculator.getDisplay());
+        assertEquals(new BigDecimal(-72), calculator.getDisplay());
     }
 
 }
