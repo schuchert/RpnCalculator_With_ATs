@@ -1,0 +1,4 @@
+.lock
+.metadata
+*.class
+bin
