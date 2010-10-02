@@ -1,12 +1,14 @@
 package com.rpn.operators.stateful;
 
+import java.math.BigDecimal;
+
 import com.rpn.IOperator;
 import com.rpn.RpnStack;
 
 public class PushConstant implements IOperator {
-    public final int value;
+    public final BigDecimal value;
     
-    public PushConstant(int value) {
+    public PushConstant(BigDecimal value) {
         this.value = value;
     }
     

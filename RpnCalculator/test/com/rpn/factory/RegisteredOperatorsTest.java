@@ -1,36 +1,16 @@
 package com.rpn.factory;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
+import org.junit.runners.*;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.rpn.IOperator;
-import com.rpn.UnknownOperatorException;
-import com.rpn.operators.stateless.Add;
-import com.rpn.operators.stateless.Divide;
-import com.rpn.operators.stateless.Drop;
-import com.rpn.operators.stateless.Dup;
-import com.rpn.operators.stateless.EqualTo;
-import com.rpn.operators.stateless.Factorial;
-import com.rpn.operators.stateless.GreaterThen;
-import com.rpn.operators.stateless.GreaterThenOrEqualTo;
-import com.rpn.operators.stateless.LessThen;
-import com.rpn.operators.stateless.LessThenOrEqualTo;
-import com.rpn.operators.stateless.Multiply;
-import com.rpn.operators.stateless.NDup;
-import com.rpn.operators.stateless.Nop;
-import com.rpn.operators.stateless.PrimeFactors;
-import com.rpn.operators.stateless.Subtract;
-import com.rpn.operators.stateless.Sum;
-import com.rpn.operators.stateless.Swap;
+import com.rpn.*;
+import com.rpn.operators.stateless.*;
+
+import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class RegisteredOperatorsTest {
@@ -57,6 +37,7 @@ public class RegisteredOperatorsTest {
         addInto(values, "dup", Dup.class);
         addInto(values, "ndup", NDup.class);
         addInto(values, "nop", Nop.class);
+        addInto(values, "not", Not.class);
         addInto(values, "primeFactors", PrimeFactors.class);
         return values;
     }

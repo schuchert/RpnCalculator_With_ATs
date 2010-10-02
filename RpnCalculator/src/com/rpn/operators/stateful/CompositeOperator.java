@@ -1,9 +1,13 @@
 package com.rpn.operators.stateful;
 
+import java.util.Iterator;
+
 import com.rpn.*;
 
 public abstract class CompositeOperator implements IOperator {
     public abstract boolean includesAnyIn(CompositeOperator step);
+
+    public abstract Iterator<IOperator> iterator();
 
     final protected void validateAppend(IOperator step) {
         if (step.equals(this) || asCompositeOperator(step).includesAnyIn(this))
@@ -21,6 +25,7 @@ public abstract class CompositeOperator implements IOperator {
         public boolean equals(Object o) {
             return false;
         }
+
         @Override
         public void execute(RpnStack values) {
         }
@@ -28,6 +33,25 @@ public abstract class CompositeOperator implements IOperator {
         @Override
         public boolean includesAnyIn(CompositeOperator step) {
             return false;
+        }
+
+        @Override
+        public Iterator<IOperator> iterator() {
+            return new Iterator<IOperator>() {
+                @Override
+                public boolean hasNext() {
+                    return false;
+                }
+
+                @Override
+                public IOperator next() {
+                    return null;
+                }
+
+                @Override
+                public void remove() {
+                }
+            };
         }
     };
 }

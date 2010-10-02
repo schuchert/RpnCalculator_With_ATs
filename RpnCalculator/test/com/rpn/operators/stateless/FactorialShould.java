@@ -12,7 +12,7 @@ public class FactorialShould {
     public void calculateFacorialOf5() {
         RpnStack values = RpnStackObjectMother.build(5);
         values.push(5);
-        Factorial op = new Factorial();
+        UnaryOperator op = new Factorial();
         op.execute(values);
         assertThatValuesMatch(120, values.peek());
     }

@@ -5,22 +5,22 @@ import java.math.BigDecimal;
 import org.junit.*;
 import org.mockito.Mockito;
 
-import com.rpn.*;
+import com.rpn.RpnStack;
 
-import static org.mockito.Matchers.anyObject;
+import static org.mockito.Matchers.*;
 
 import static org.mockito.Mockito.*;
 
 public class IfTest {
     RpnStack stack;
     If op = new If();
-    IOperator trueBlock;
-    IOperator falseBlock;
+    CompositeOperator trueBlock;
+    CompositeOperator falseBlock;
 
     @Before
     public void init() {
-        trueBlock = Mockito.mock(IOperator.class);
-        falseBlock = Mockito.mock(IOperator.class);
+        trueBlock = Mockito.mock(CompositeOperator.class);
+        falseBlock = Mockito.mock(CompositeOperator.class);
     }
 
     @Test

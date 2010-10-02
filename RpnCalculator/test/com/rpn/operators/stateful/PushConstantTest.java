@@ -2,8 +2,7 @@ package com.rpn.operators.stateful;
 
 import java.math.BigDecimal;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import com.rpn.RpnStack;
 import com.rpn.objectmothers.RpnStackObjectMother;
@@ -15,7 +14,7 @@ public class PushConstantTest {
 
     @Before
     public void init() {
-        new PushConstant(17).execute(stack);
+        new PushConstant(new BigDecimal(17)).execute(stack);
     }
 
     @Test

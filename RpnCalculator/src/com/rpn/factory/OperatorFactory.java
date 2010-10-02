@@ -2,10 +2,7 @@ package com.rpn.factory;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.rpn.IOperator;
-import com.rpn.OperatorNameAlreadyInUse;
-import com.rpn.RegisteredName;
-import com.rpn.UnknownOperatorException;
+import com.rpn.*;
 
 public class OperatorFactory {
     ConcurrentHashMap<String, IOperator> operators = new ConcurrentHashMap<String, IOperator>();
@@ -55,5 +52,9 @@ public class OperatorFactory {
             throw new IllegalArgumentException("cannot add a null operator");
         if (operators.containsKey(candidateName))
             throw new OperatorNameAlreadyInUse(candidateName);
+    }
+
+    public boolean containsOperatorNamed(String name) {
+        return operators.containsKey(name);
     }
 }

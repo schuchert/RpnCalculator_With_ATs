@@ -1,12 +1,21 @@
 package com.rpn.operators.stateful;
 
-import java.util.ArrayList;
+import java.util.*;
 
 import com.rpn.*;
 
-public class Macro extends CompositeOperator {
+public class Macro extends CompositeOperator implements Iterable<IOperator> {
+    public final String name;
     private ArrayList<IOperator> steps = new ArrayList<IOperator>();
 
+    public Macro() {
+        this("");
+    }
+    
+    public Macro(String name) {
+        this.name = name;
+    }
+    
     @Override
     public void execute(RpnStack values) {
         for (IOperator current : steps)
@@ -24,5 +33,14 @@ public class Macro extends CompositeOperator {
             if (current.equals(composite) || asCompositeOperator(current).includesAnyIn(composite))
                 return true;
         return false;
+    }
+
+    public boolean stepCountIs(int value) {
+        return steps.size() == value;
+    }
+
+    @Override
+    public Iterator<IOperator> iterator() {
+        return new MacroIterator(steps);
     }
 }

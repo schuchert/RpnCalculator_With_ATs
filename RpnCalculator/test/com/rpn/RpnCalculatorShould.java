@@ -1,4 +1,4 @@
-package com.rpn.factory;
+package com.rpn;
 
 import static org.junit.Assert.assertEquals;
 
