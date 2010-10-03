@@ -31,6 +31,7 @@ public class RegisteredOperatorsTest {
         addInto(values, ">", GreaterThen.class);
         addInto(values, ">=", GreaterThenOrEqualTo.class);
         addInto(values, "==", EqualTo.class);
+        addInto(values, "%", Modulo.class);
         addInto(values, "sum", Sum.class);
         addInto(values, "swap", Swap.class);
         addInto(values, "drop", Drop.class);

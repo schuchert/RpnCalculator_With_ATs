@@ -31,7 +31,7 @@ public class MacroIteratorTest {
         falseBlock.append(new Swap());
         falseBlock.append(new Drop());
         If op = new If(trueBlock, falseBlock);
-        Iterator<IOperator> iter = op.iterator();
+        Iterator<IOperator> iter = new MacroIterator(op);
         assertTrue(iter.next() instanceof Drop);
         assertTrue(iter.next() instanceof Swap);
         assertTrue(iter.next() instanceof Drop);

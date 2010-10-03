@@ -8,9 +8,9 @@ import com.rpn.factory.OperatorFactory;
 import com.rpn.objectmothers.RpnStackObjectMother;
 import com.rpn.operators.stateful.Macro;
 
-import static org.mockito.Mockito.*;
-
 import static org.junit.Assert.*;
+
+import static org.mockito.Mockito.*;
 
 public class RpnProgrammerTest {
     OperatorFactory factory = new OperatorFactory();
@@ -96,5 +96,16 @@ public class RpnProgrammerTest {
     @Test
     public void canHandleSingleLevelIfElseWithBothPaths() {
         m = programmer.compile("x if swap else drop then");
+    }
+    
+    @Test
+    public void min() {
+        m = programmer.compile("min 2 ndup < if drop else swap drop then");
+        stack = RpnStackObjectMother.build(4, 6);
+        m.execute(stack);
+        assertEquals(new BigDecimal(4), stack.peek());
+        stack = RpnStackObjectMother.build(6, 4);
+        m.execute(stack);
+        assertEquals(new BigDecimal(4), stack.peek());
     }
 }

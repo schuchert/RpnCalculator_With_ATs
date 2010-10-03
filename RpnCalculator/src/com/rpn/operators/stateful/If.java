@@ -5,11 +5,11 @@ import java.util.Iterator;
 
 import com.rpn.*;
 
-class TwoIterator implements Iterator<IOperator> {
+class IfIterator implements Iterator<IOperator> {
     private final Iterator<IOperator> one;
     private final Iterator<IOperator> two;
 
-    public TwoIterator(Iterator<IOperator> one, Iterator<IOperator> two) {
+    public IfIterator(Iterator<IOperator> one, Iterator<IOperator> two) {
         this.one = one;
         this.two = two;
     }
@@ -89,7 +89,7 @@ public class If extends CompositeOperator implements Iterable<IOperator> {
 
     @Override
     public Iterator<IOperator> iterator() {
-        return new TwoIterator(trueBlock.iterator(), falseBlock.iterator());
+        return new IfIterator(trueBlock.iterator(), falseBlock.iterator());
     }
 
 }
