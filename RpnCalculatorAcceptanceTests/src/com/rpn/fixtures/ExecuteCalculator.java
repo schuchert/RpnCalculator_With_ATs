@@ -3,7 +3,7 @@ package com.rpn.fixtures;
 import com.rpn.RpnCalculator;
 
 public class ExecuteCalculator {
-    static RpnCalculator calculator = new RpnCalculator();
+    private static final EnterSeveralValuesIntoCalcualtor VALUE_ENTERER = new EnterSeveralValuesIntoCalcualtor();
     String operatorName;
 
     public ExecuteCalculator() {
@@ -14,34 +14,28 @@ public class ExecuteCalculator {
         this.operatorName = opeatorName;
     }
 
-    public void reset() {
-        calculator = new RpnCalculator();
+    public RpnCalculator calculator() {
+        return TheCalculator.instance;
     }
-
-    private void enterNonBlank(String value) {
-        if (value == null || value.length() == 0)
-            return;
-
-        String[] values = value.split(" +");
-        
-        for (String current : values)
-            calculator.enter(Integer.parseInt(current));
+    
+    public void reset() {
+        TheCalculator.reset();
     }
 
     public void setGiven(String value) {
-        enterNonBlank(value);
+        VALUE_ENTERER.process(calculator(), value);
     }
 
     public void setOf(String value) {
-        enterNonBlank(value);
+        VALUE_ENTERER.process(calculator(), value);
     }
 
     public void setV1(String value) {
-        enterNonBlank(value);
+        VALUE_ENTERER.process(calculator(), value);
     }
 
     public void setV2(String value) {
-        enterNonBlank(value);
+        VALUE_ENTERER.process(calculator(), value);
     }
 
     public void setWhen(String operatorName) {
@@ -53,9 +47,9 @@ public class ExecuteCalculator {
     }
 
     public void setWhenthestackhas(String value) {
-        enterNonBlank(value);
+        VALUE_ENTERER.process(calculator(), value);
     }
-    
+
     public String then() {
         return result();
     }
@@ -63,41 +57,13 @@ public class ExecuteCalculator {
     public String are() {
         return result();
     }
-    
+
     public String result() {
         try {
-            calculator.perform(operatorName);
-            return destructivelyReportFullStack();
+            calculator().perform(operatorName);
+            return new DestructiveCalculatorResultGenerator(TheCalculator.instance).report();
         } catch (Exception e) {
             return "<error>";
         }
-    }
-
-    private String destructivelyReportFullStack() {
-        StringBuffer result = new StringBuffer();
-        
-        while (calculator.hasOperands()) 
-            appendNextValueTo(result);
-
-        return result.toString();
-    }
-
-    private void appendNextValueTo(StringBuffer result) {
-        conditionallyAddSpace(result);
-        appendCurrentValue(result);
-        removeCurrentValue();
-    }
-
-    private void removeCurrentValue() {
-        calculator.perform("drop");
-    }
-
-    private void appendCurrentValue(StringBuffer result) {
-        result.insert(0, calculator.getDisplay());
-    }
-
-    private void conditionallyAddSpace(StringBuffer result) {
-        if (result.length() > 0)
-            result.insert(0, ' ');
     }
 }

@@ -8,7 +8,11 @@ import static org.junit.Assert.*;
 
 public class RpnCalculatorShould {
     private RpnCalculator calculator;
-
+    
+    void enterValue(int value) {
+        calculator.enter(new BigDecimal(value));
+    }
+    
     @Before
     public void init() {
         calculator = new RpnCalculator();
@@ -21,21 +25,21 @@ public class RpnCalculatorShould {
     
     @Test
     public void haveOperandsAfterEnter() {
-        calculator.enter(4);
+        enterValue(4);
         assertTrue(calculator.hasOperands());
     }
     
     @Test
     public void calculateFactorial() {
-        calculator.enter(5);
+        enterValue(5);
         calculator.perform("!");
         assertEquals(new BigDecimal(120), calculator.getDisplay());
     }
 
     @Test
     public void addTwoNumbersCorrectly() {
-        calculator.enter(30);
-        calculator.enter(4);
+        enterValue(30);
+        enterValue(4);
         calculator.perform("+");
         assertEquals(new BigDecimal(34), calculator.getDisplay());
     }
@@ -46,9 +50,9 @@ public class RpnCalculatorShould {
         calculator.addStep("+");
         calculator.addStep("-");
         calculator.save("+-");
-        calculator.enter(10);
-        calculator.enter(30);
-        calculator.enter(4);
+        enterValue(10);
+        enterValue(30);
+        enterValue(4);
         calculator.perform("+-");
         assertEquals(new BigDecimal(-24), calculator.getDisplay());
     }

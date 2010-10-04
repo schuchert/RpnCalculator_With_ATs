@@ -19,48 +19,52 @@ public class RpnCalcualtorAcceptanceTest {
         assertEquals(new BigDecimal(value), calculator.getDisplay());
     }
 
+    void enterValue(int value) {
+        calculator.enter(new BigDecimal(value));
+    }
+    
     @Test
     public void addingTwoNumbers() {
-        calculator.enter(30);
-        calculator.enter(4);
+        enterValue(30);
+        enterValue(4);
         calculator.perform("+");
         resultWas(34);
     }
 
     @Test
     public void subtractingTwoNumbers() {
-        calculator.enter(30);
-        calculator.enter(4);
+        enterValue(30);
+        enterValue(4);
         calculator.perform("-");
         resultWas(26);
     }
 
     @Test
     public void factorialOf5() {
-        calculator.enter(5);
+        enterValue(5);
         calculator.perform("!");
         resultWas(120);
     }
 
     @Test
     public void multiplyTwoNumbers() {
-        calculator.enter(4);
-        calculator.enter(6);
+        enterValue(4);
+        enterValue(6);
         calculator.perform("*");
         resultWas(24);
     }
 
     @Test
     public void divideTwoNumbers() {
-        calculator.enter(8);
-        calculator.enter(2);
+        enterValue(8);
+        enterValue(2);
         calculator.perform("/");
         resultWas(4);
     }
 
     @Test
     public void subtractWhenJustEnteringOneNumber() {
-        calculator.enter(1);
+        enterValue(1);
         calculator.perform("-");
         resultWas(-1);
     }
@@ -73,8 +77,8 @@ public class RpnCalcualtorAcceptanceTest {
 
     @Test(expected = ArithmeticException.class)
     public void divideByZeroGeneratesError() {
-        calculator.enter(8);
-        calculator.enter(0);
+        enterValue(8);
+        enterValue(0);
         calculator.perform("/");
     }
 
@@ -100,10 +104,10 @@ public class RpnCalcualtorAcceptanceTest {
     }
 
     private void verifyAmsMacroWorks() {
-        calculator.enter(3);
-        calculator.enter(5);
-        calculator.enter(2);
-        calculator.enter(13);
+        enterValue(3);
+        enterValue(5);
+        enterValue(2);
+        enterValue(13);
         calculator.perform("ams");
         assertEquals(new BigDecimal(-72), calculator.getDisplay());
     }

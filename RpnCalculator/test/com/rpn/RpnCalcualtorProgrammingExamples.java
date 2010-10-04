@@ -7,14 +7,19 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class RpnCalcualtorProgrammingExamples {
+    RpnCalculator calculator = new RpnCalculator();
+    
+    void enterValue(int value) {
+        calculator.enter(new BigDecimal(value));
+    }
+
     @Test
     public void createNewMacro() {
-        RpnCalculator calculator = new RpnCalculator();
         calculator.addMacroNamed("foo", "* + -");
-        calculator.enter(4);
-        calculator.enter(4);
-        calculator.enter(4);
-        calculator.enter(4);
+        enterValue(4);
+        enterValue(4);
+        enterValue(4);
+        enterValue(4);
         calculator.perform("foo");
         assertEquals(new BigDecimal(-16), calculator.getDisplay());
     }

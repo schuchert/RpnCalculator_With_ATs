@@ -19,7 +19,7 @@ public class RpnCalculator {
         this.factory = factory;
     }
 
-    public void enter(int value) {
+    public void enter(BigDecimal value) {
         values.push(value);
     }
 
