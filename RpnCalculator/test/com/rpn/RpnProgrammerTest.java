@@ -1,12 +1,14 @@
 package com.rpn;
 
 import java.math.BigDecimal;
+import java.util.Iterator;
 
 import org.junit.Test;
 
 import com.rpn.factory.OperatorFactory;
 import com.rpn.objectmothers.RpnStackObjectMother;
-import com.rpn.operators.stateful.Macro;
+import com.rpn.operators.stateful.*;
+import com.rpn.operators.stateless.*;
 
 import static org.junit.Assert.*;
 
@@ -107,5 +109,31 @@ public class RpnProgrammerTest {
         stack = RpnStackObjectMother.build(6, 4);
         m.execute(stack);
         assertEquals(new BigDecimal(4), stack.peek());
+    }
+    
+    @Test
+    public void nestedIf() {
+        m = programmer.compile("x", "2 ndup < if drop 2 % if 7 * else 5 - then else 3 % then");
+        Iterator<IOperator> iter = m.iterator();
+        assertEquals(Macro.class, iter.next().getClass());
+        assertEquals(PushConstant.class, iter.next().getClass());
+        assertEquals(NDup.class, iter.next().getClass());
+        assertEquals(LessThen.class, iter.next().getClass());
+        assertEquals(If.class, iter.next().getClass());
+        assertEquals(Macro.class, iter.next().getClass());
+        assertEquals(Drop.class, iter.next().getClass());
+        assertEquals(PushConstant.class, iter.next().getClass());
+        assertEquals(Modulo.class, iter.next().getClass());
+        assertEquals(If.class, iter.next().getClass());
+        assertEquals(Macro.class, iter.next().getClass());
+        assertEquals(PushConstant.class, iter.next().getClass());
+        assertEquals(Multiply.class, iter.next().getClass());
+        assertEquals(Macro.class, iter.next().getClass());
+        assertEquals(PushConstant.class, iter.next().getClass());
+        assertEquals(Subtract.class, iter.next().getClass());
+        assertEquals(Macro.class, iter.next().getClass());
+        assertEquals(PushConstant.class, iter.next().getClass());
+        assertEquals(Modulo.class, iter.next().getClass());
+        assertFalse(iter.hasNext());
     }
 }
