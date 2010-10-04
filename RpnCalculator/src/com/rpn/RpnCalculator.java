@@ -9,6 +9,7 @@ public class RpnCalculator {
     private RpnStack values = new RpnStack();
     private OperatorFactory factory;
     private Macro currentMacro;
+    private Macro newProgram;
 
     public RpnCalculator() {
         factory = new OperatorFactory();
@@ -35,12 +36,9 @@ public class RpnCalculator {
         return values.size() > 0;
     }
 
-    public void addMacroNamed(String candidateName, String program) {
-        String[] stepNames = program.split(" +");
-        start();
-        for (String currentName : stepNames)
-            addStep(currentName);
-        save(candidateName);
+    public void addMacroNamed(String candidateName, String programText) {
+        newProgram = new RpnProgrammer(factory).compile(candidateName, programText);
+        factory.add(newProgram.name, newProgram);
     }
 
     public void start() {

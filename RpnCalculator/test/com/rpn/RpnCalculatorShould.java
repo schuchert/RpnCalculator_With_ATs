@@ -39,4 +39,17 @@ public class RpnCalculatorShould {
         calculator.perform("+");
         assertEquals(new BigDecimal(34), calculator.getDisplay());
     }
+    
+    @Test
+    public void allowProgamming() {
+        calculator.start();
+        calculator.addStep("+");
+        calculator.addStep("-");
+        calculator.save("+-");
+        calculator.enter(10);
+        calculator.enter(30);
+        calculator.enter(4);
+        calculator.perform("+-");
+        assertEquals(new BigDecimal(-24), calculator.getDisplay());
+    }
 }

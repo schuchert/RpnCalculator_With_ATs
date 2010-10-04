@@ -24,34 +24,34 @@ public class RpnProgrammerTest {
 
     @Test
     public void createsEmptyNamedProgram() {
-        m = programmer.compile("x");
+        m = programmer.compile("x", "");
         assertNameOfIs(m, "x");
         assertTrue(m.stepCountIs(0));
     }
 
     @Test
     public void ignoresLeadingSpaces() {
-        m = programmer.compile("   x");
+        m = programmer.compile("   x", "");
         assertNameOfIs(m, "x");
         assertTrue(m.stepCountIs(0));
     }
 
     @Test
     public void ignoresTrailingSpaces() {
-        m = programmer.compile("x   ");
+        m = programmer.compile("x   ", "");
         assertNameOfIs(m, "x");
         assertTrue(m.stepCountIs(0));
     }
 
     @Test
     public void handlesStatelessOperators() {
-        m = programmer.compile("x sum + - *");
+        m = programmer.compile("x", "sum + - *");
         assertTrue(m.stepCountIs(4));
     }
     
     @Test
     public void canHandlePusingConstantStatefulOperator() {
-        m = programmer.compile("x 2 *");
+        m = programmer.compile("x", "2 *");
         stack = RpnStackObjectMother.build(4);
         m.execute(stack);
         assertEquals(new BigDecimal(8), stack.peek());
@@ -59,7 +59,7 @@ public class RpnProgrammerTest {
     
     @Test
     public void canHandleEmptyIfElseThen() {
-        m = programmer.compile("x if then");
+        m = programmer.compile("x", "if then");
         stack = mock(RpnStack.class);
         when(stack.pop()).thenReturn(BigDecimal.ONE);
         m.execute(stack);
@@ -69,7 +69,7 @@ public class RpnProgrammerTest {
     
     @Test
     public void canHandleSingleLevelIfWithNoElse() {
-        m = programmer.compile("x if drop then");
+        m = programmer.compile("x", "if drop then");
         stack = mock(RpnStack.class);
         when(stack.pop()).thenReturn(BigDecimal.ONE);
         m.execute(stack);
@@ -85,22 +85,22 @@ public class RpnProgrammerTest {
     
     @Test
     public void canHandleSingleLevelIfWithEmptyElse() {
-        m = programmer.compile("x if drop else then");
+        m = programmer.compile("x", "if drop else then");
     }
     
     @Test
     public void canHandleSingleLevelIfWithOnlythen() {
-        m = programmer.compile("x if else drop then");
+        m = programmer.compile("x", "if else drop then");
     }
     
     @Test
     public void canHandleSingleLevelIfElseWithBothPaths() {
-        m = programmer.compile("x if swap else drop then");
+        m = programmer.compile("x", "if swap else drop then");
     }
     
     @Test
     public void min() {
-        m = programmer.compile("min 2 ndup < if drop else swap drop then");
+        m = programmer.compile("min", "2 ndup < if drop else swap drop then");
         stack = RpnStackObjectMother.build(4, 6);
         m.execute(stack);
         assertEquals(new BigDecimal(4), stack.peek());

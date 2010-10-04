@@ -15,31 +15,51 @@ public class RpnProgrammer {
         this.factory = factory;
     }
 
-    public Macro compile(String program) {
+    public Macro compile(String name, String program) {
         String[] tokens = program.trim().split(" +");
-        Macro m = new Macro(tokens[0]);
+        Macro m = new Macro(name.trim());
         operators.push(m);
-        for (int i = 1; i < tokens.length; ++i) {
+        for (int i = 0; i < tokens.length; ++i) {
             String current = tokens[i];
             if (isRegularOperator(current))
-                current().append(factory.findOperatorNamed(current));
+                handleStatelessOperator(current);
             else if (isNumber(current))
-                current().append(new PushConstant(new BigDecimal(current)));
+                handlePushingOfAConstant(current);
             else if (isIf(current)) {
-                If newOp = new If(new Macro(), new Macro());
-                current().append(newOp);
-                operators.push(newOp);
-                operators.push(newOp.trueBlock());
+                beginIfStatement();
             } else if (isElse(current)) {
-                operators.pop();
-                If ifOp = (If) operators.peek();
-                operators.push(ifOp.falseBlock());
+                moveToElsePartOfIf();
             } else if (isThen(current)) {
-                operators.pop();
-                operators.pop();
+                completeIfStatement();
             }
         }
         return m;
+    }
+
+    private void completeIfStatement() {
+        operators.pop();
+        operators.pop();
+    }
+
+    private void moveToElsePartOfIf() {
+        operators.pop();
+        If ifOp = (If) operators.peek();
+        operators.push(ifOp.falseBlock());
+    }
+
+    private void beginIfStatement() {
+        If newOp = new If(new Macro(), new Macro());
+        current().append(newOp);
+        operators.push(newOp);
+        operators.push(newOp.trueBlock());
+    }
+
+    private void handlePushingOfAConstant(String current) {
+        current().append(new PushConstant(new BigDecimal(current)));
+    }
+
+    private void handleStatelessOperator(String current) {
+        current().append(factory.findOperatorNamed(current));
     }
 
     private boolean isThen(String current) {
