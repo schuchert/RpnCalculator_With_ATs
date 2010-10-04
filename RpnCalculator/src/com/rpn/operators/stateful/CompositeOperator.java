@@ -7,6 +7,7 @@ import com.rpn.*;
 public abstract class CompositeOperator implements IOperator {
     public abstract boolean includesAnyIn(CompositeOperator step);
 
+    public abstract Iterator<IOperator> containedIterator();
     public abstract Iterator<IOperator> iterator();
 
     final protected void validateAppend(IOperator step) {
@@ -36,22 +37,14 @@ public abstract class CompositeOperator implements IOperator {
         }
 
         @Override
-        public Iterator<IOperator> iterator() {
-            return new Iterator<IOperator>() {
-                @Override
-                public boolean hasNext() {
-                    return false;
-                }
+        public IOperatorIteratorAdapter iterator() {
+            return IOperatorIteratorAdapter.NULL_ITERATOR;
+        }
 
-                @Override
-                public IOperator next() {
-                    return null;
-                }
-
-                @Override
-                public void remove() {
-                }
-            };
+        @Override
+        public IOperatorIteratorAdapter containedIterator() {
+            return IOperatorIteratorAdapter.NULL_ITERATOR;
         }
     };
+
 }

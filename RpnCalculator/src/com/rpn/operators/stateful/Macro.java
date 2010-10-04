@@ -41,6 +41,11 @@ public class Macro extends CompositeOperator implements Iterable<IOperator> {
 
     @Override
     public Iterator<IOperator> iterator() {
-        return new MacroIterator(steps);
+        return new CompositeOperatorIterator(this);
+    }
+
+    @Override
+    public Iterator<IOperator> containedIterator() {
+        return steps.iterator();
     }
 }

@@ -1,39 +1,9 @@
 package com.rpn.operators.stateful;
 
 import java.math.BigDecimal;
-import java.util.Iterator;
+import java.util.*;
 
 import com.rpn.*;
-
-class IfIterator implements Iterator<IOperator> {
-    private final Iterator<IOperator> one;
-    private final Iterator<IOperator> two;
-
-    public IfIterator(Iterator<IOperator> one, Iterator<IOperator> two) {
-        this.one = one;
-        this.two = two;
-    }
-
-    @Override
-    public boolean hasNext() {
-        return one.hasNext() || two.hasNext();
-    }
-
-    @Override
-    public IOperator next() {
-        if (one.hasNext())
-            return one.next();
-        else if (two.hasNext())
-            return two.next();
-        else
-            throw new RuntimeException("Beyond Both Iterators");
-    }
-
-    @Override
-    public void remove() {
-    }
-
-}
 
 public class If extends CompositeOperator implements Iterable<IOperator> {
     private CompositeOperator trueBlock;
@@ -89,7 +59,11 @@ public class If extends CompositeOperator implements Iterable<IOperator> {
 
     @Override
     public Iterator<IOperator> iterator() {
-        return new IfIterator(trueBlock.iterator(), falseBlock.iterator());
+        return new CompositeOperatorIterator(this);
     }
 
+    @Override
+    public Iterator<IOperator> containedIterator() {
+        return new CompositeOperatorIterator(trueBlock, falseBlock);
+    }
 }
