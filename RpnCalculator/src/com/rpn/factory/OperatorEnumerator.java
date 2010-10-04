@@ -7,8 +7,9 @@ import java.util.Iterator;
 import java.util.Vector;
 
 import com.rpn.IOperator;
+import com.rpn.operators.stateful.OperatorIteratorAdapter;
 
-public class OperatorEnumerator implements Iterable<IOperator>, Iterator<IOperator> {
+public class OperatorEnumerator extends OperatorIteratorAdapter implements Iterable<IOperator> {
     Vector<IOperator> operators = new Vector<IOperator>();
     Iterator<IOperator> iterator;
 
@@ -49,7 +50,7 @@ public class OperatorEnumerator implements Iterable<IOperator>, Iterator<IOperat
         return candidates;
     }
 
-    private boolean isPublicAndConcrete(Class<?> clazz) {
+     boolean isPublicAndConcrete(Class<?> clazz) {
         int modifiers = clazz.getModifiers();
 
         return IOperator.class.isAssignableFrom(clazz) && !Modifier.isAbstract(modifiers)
@@ -59,10 +60,14 @@ public class OperatorEnumerator implements Iterable<IOperator>, Iterator<IOperat
     private Class<?> getClass(String directory, String current) {
         String name = buildClassName(directory, current);
         try {
-            return ClassLoader.getSystemClassLoader().loadClass(name);
+            return getClassloader().loadClass(name);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(String.format("Unable to load from %s, class: %s", directory, current), e);
         }
+    }
+
+    protected ClassLoader getClassloader() {
+        return ClassLoader.getSystemClassLoader();
     }
 
     private String buildClassName(String directory, String current) {
@@ -81,10 +86,6 @@ public class OperatorEnumerator implements Iterable<IOperator>, Iterator<IOperat
     @Override
     public IOperator next() {
         return iterator.next();
-    }
-
-    @Override
-    public void remove() {
     }
 
     @Override

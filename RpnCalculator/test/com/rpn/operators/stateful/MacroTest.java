@@ -1,15 +1,12 @@
 package com.rpn.operators.stateful;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.mockito.Mockito;
 
-import com.rpn.IOperator;
-import com.rpn.RpnStack;
+import com.rpn.*;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-import static org.mockito.Mockito.times;
+import static org.junit.Assert.*;
+
 import static org.mockito.Mockito.*;
 
 public class MacroTest {
@@ -75,5 +72,11 @@ public class MacroTest {
         shouldNotBeAllowed(m2, op);
         shouldNotBeAllowed(m2, m1);
         shouldNotBeAllowed(m1, op);
+    }
+    
+    @Test
+    public void shouldCountItsStepsCorrectly() {
+        assertTrue(op.stepCountIs(3));
+        assertFalse(op.stepCountIs(4));
     }
 }

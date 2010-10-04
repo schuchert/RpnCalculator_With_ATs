@@ -37,13 +37,13 @@ public abstract class CompositeOperator implements IOperator {
         }
 
         @Override
-        public IOperatorIteratorAdapter iterator() {
-            return IOperatorIteratorAdapter.NULL_ITERATOR;
+        public OperatorIteratorAdapter iterator() {
+            return OperatorIteratorAdapter.NULL_ITERATOR;
         }
 
         @Override
-        public IOperatorIteratorAdapter containedIterator() {
-            return IOperatorIteratorAdapter.NULL_ITERATOR;
+        public OperatorIteratorAdapter containedIterator() {
+            return OperatorIteratorAdapter.NULL_ITERATOR;
         }
     };
 

@@ -13,6 +13,7 @@ public class NDup implements IOperator {
     public void execute(RpnStack values) {
         BigDecimal candidateCount = values.pop();
 
+        candidateCount.intValueExact();
         if (candidateCount.compareTo(BigDecimal.ONE) < 0)
             throw new ArithmeticException("Cannot ndup < 1 stack items");
 

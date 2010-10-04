@@ -4,8 +4,8 @@ import java.util.Iterator;
 
 import com.rpn.*;
 
-public class IOperatorIteratorAdapter implements Iterator<IOperator> {
-    static IOperatorIteratorAdapter NULL_ITERATOR = new IOperatorIteratorAdapter();
+public class OperatorIteratorAdapter implements Iterator<IOperator> {
+    static OperatorIteratorAdapter NULL_ITERATOR = new OperatorIteratorAdapter();
     
     @Override
     public void remove() {

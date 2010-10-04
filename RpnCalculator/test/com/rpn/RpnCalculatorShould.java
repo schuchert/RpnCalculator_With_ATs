@@ -1,13 +1,10 @@
 package com.rpn;
 
-import static org.junit.Assert.assertEquals;
-
 import java.math.BigDecimal;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
-import com.rpn.RpnCalculator;
+import static org.junit.Assert.*;
 
 public class RpnCalculatorShould {
     private RpnCalculator calculator;
@@ -17,6 +14,17 @@ public class RpnCalculatorShould {
         calculator = new RpnCalculator();
     }
 
+    @Test
+    public void notHaveOperandsAvailable() {
+        assertFalse(calculator.hasOperands());
+    }
+    
+    @Test
+    public void haveOperandsAfterEnter() {
+        calculator.enter(4);
+        assertTrue(calculator.hasOperands());
+    }
+    
     @Test
     public void calculateFactorial() {
         calculator.enter(5);

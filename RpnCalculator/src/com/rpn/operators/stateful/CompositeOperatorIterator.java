@@ -4,18 +4,8 @@ import java.util.*;
 
 import com.rpn.IOperator;
 
-public class CompositeOperatorIterator extends IOperatorIteratorAdapter {
+public class CompositeOperatorIterator extends OperatorIteratorAdapter {
     private Stack<Iterator<IOperator>> pending = new Stack<Iterator<IOperator>>();
-
-    public CompositeOperatorIterator(Iterator<IOperator> s1, Iterator<IOperator> s2) {
-        makePending(s2);
-        makePending(s1);
-    }
-
-    public CompositeOperatorIterator(CompositeOperator composite, Iterator<IOperator> steps) {
-        makePending(steps);
-        makePending(new SingleIterator(composite));
-    }
 
     public CompositeOperatorIterator(CompositeOperator composite) {
         makePending(new SingleIterator(composite));
@@ -46,9 +36,11 @@ public class CompositeOperatorIterator extends IOperatorIteratorAdapter {
     }
 
     private void conditionallyAddToPendingWork(IOperator next) {
-        if (next instanceof CompositeOperator) {
+        CompositeOperator composite = asCo(next);
+        
+        if (composite != null) {
             if (!(top() instanceof CompositeOperatorIterator))
-                makePending(asCo(next).containedIterator());
+                makePending(composite.containedIterator());
         }
     }
 

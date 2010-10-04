@@ -12,6 +12,18 @@ import static org.junit.Assert.assertEquals;
 public class PrimeFactorsTest {
     RpnStack values = RpnStackObjectMother.build();
     
+    @Test(expected=ArithmeticException.class)
+    public void doesNotWorkForNonIntegerValues() {
+        givenAValueOf(new BigDecimal("1.1"));
+        whenCalculatingItsPrimeFactors();
+    }
+    
+    @Test(expected=ArithmeticException.class)
+    public void doesNotWorkForValuesLessThan0() {
+        givenAValueOf(new BigDecimal("-0.00000001"));
+        whenCalculatingItsPrimeFactors();
+    }
+    
     @Test
     public void of1() {
         givenAValueOf(1);
@@ -40,6 +52,10 @@ public class PrimeFactorsTest {
         new PrimeFactors().execute(values);
     }
 
+    private void givenAValueOf(BigDecimal value) {
+        values.push(value);
+    }
+    
     private void givenAValueOf(int value) {
         values.push(value);
     }

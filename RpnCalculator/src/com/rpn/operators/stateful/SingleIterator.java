@@ -2,7 +2,7 @@ package com.rpn.operators.stateful;
 
 import com.rpn.IOperator;
 
-public class SingleIterator extends IOperatorIteratorAdapter {
+public class SingleIterator extends OperatorIteratorAdapter {
     private IOperator singleValue;
 
     public SingleIterator(IOperator value) {
