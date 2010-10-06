@@ -39,7 +39,14 @@ public class RegisteredOperatorsTest {
         addInto(values, "ndup", NDup.class);
         addInto(values, "nop", Nop.class);
         addInto(values, "not", Not.class);
+        addInto(values, "ulp", Ulp.class);
+        addInto(values, "wait", Wait.class);
+        addInto(values, "abs", Absloute.class);
         addInto(values, "primeFactors", PrimeFactors.class);
+        addInto(values, "bytevalue", ByteValue.class);
+        addInto(values, "scale", Scale.class);
+        addInto(values, "neg", Negate.class);
+        addInto(values, "intvalue", IntValue.class);
         return values;
     }
 

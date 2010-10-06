@@ -1,0 +1,7 @@
+!|script|Programming the calculator|
+|Given a new calculator|
+|with the values|4 6|
+|and a program named|min|
+|and the steps|2 ndup < if drop else swap drop then|
+|when executing|min|
+|then the result should be|4|

@@ -1,0 +1,22 @@
+!define TEST_SYSTEM {slim}
+!path fitnesse.jar
+!define BASE_DIR {/Users/schuchert/src/RpnCalculator_With_ATs}
+!path ${BASE_DIR}/RpnCalculator/bin
+!path ${BASE_DIR}/RpnCalculatorAcceptanceTests/bin
+
+!contents -R2 -g -p -f -h
+
+|import|
+|uncle|
+
+!|Bob                     |
+|Given|And|When         |Then?   |reset?|
+|30|4 |+            |34     ||
+|30|4 |-            |26     ||
+|5 |  |!            |120    ||
+|4 |6 |*            |24     ||
+|8 |2 |/            |4      ||
+|1 |  |-            |-1     ||
+|  |  |+            |0      ||
+|8 |0 |/            |<error>||
+|  |  |$%^unknown*&^|<error>||

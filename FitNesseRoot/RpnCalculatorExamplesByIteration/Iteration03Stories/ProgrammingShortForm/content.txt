@@ -1,0 +1,7 @@
+|Programming The Calculator|
+|name|steps|given|then?|
+|min|2 ndup < if drop else swap drop then|4 6|4|
+|max|2 ndup > if drop else swap drop then|4 6|6|
+|r1|2 ndup < if drop dup 2 % if 7 * else 5 - then else 3 % then|7 11|49|
+|r1|2 ndup < if drop dup 2 % if 7 * else 5 - then else 3 % then|8 11|3|
+|r1|2 ndup < if drop dup 2 % if 7 * else 5 - then else swap drop 3 % then|11 4|1|

@@ -1,4 +1,8 @@
+*.jar
 .lock
 .metadata
 *.class
 bin
+FitNesseRoot/files
+FitnesseRoot/ErrorLogs
+FitNesseRoot/RecentChanges

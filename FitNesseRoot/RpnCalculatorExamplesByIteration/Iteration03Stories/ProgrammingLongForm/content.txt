@@ -1,0 +1,12 @@
+|script |programming the calculator|
+|start program                      |
+|addStep|+                         |
+|addStep|*                         |
+|addStep|-                         |
+|save   |ams                       |
+|enter  |3                         |
+|enter  |5                         |
+|enter  |2                         |
+|enter  |13                        |
+|perform|ams                       |
+|ensure |xIs          |-72         |

@@ -12,10 +12,8 @@ public class OperatorFactory {
     }
 
     protected void addFoundOperators() {
-        OperatorEnumerator enumerator = new OperatorEnumerator();
-        for (IOperator current : enumerator) {
+        for (IOperator current : new DynamicLoadingStatelessOperatorIterator()) 
             add(getName(current), current);
-        }
     }
 
     private String getName(IOperator current) {

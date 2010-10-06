@@ -1,0 +1,6 @@
+!|ExecuteCalculator    |
+|whenthestackhas  |when|then?    |
+|1 2    |swap|2 1      |
+|15 4   |drop|15       |
+|42     |dup |42 42    |
+|9 3 4 2|ndup|9 3 4 3 4|

@@ -1,0 +1,33 @@
+This one is for Ray...
+- Wait
+- Add
+- Subtract
+- Absolute Value
+- Byte Value
+- Int Value
+- Negate
+- Ulp
+- Times
+- Scale
+Wasabi Nuts
+
+|Programming The Calculator|
+|name|steps|given|then?|
+|newMacroExample|wait + - abs bytevalue intvalue neg ulp * scale|200.19 73.4 159.6 1|0|
+
+Or...
+- Negate
+- Ulp
+- Times
+- Scale
+- Wait
+- Add
+- Subtract
+- Absolute Value
+- Byte Value
+- Int Value
+
+Nuts Wasabi
+|Programming The Calculator|
+|name|steps|given|then?|
+|rpn ray|neg ulp * scale wait + - abs bytevalue intvalue|96 200.19 1 73.4 43159.6|105|

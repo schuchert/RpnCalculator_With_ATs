@@ -9,7 +9,7 @@ import static org.mockito.Mockito.*;
 public class OperatorEnumeratorCodeCoverageTest {
     @Test(expected = RuntimeException.class)
     public void exerciseCatchBlock() {
-        new OperatorEnumerator() {
+        new DirectoryBasedOperatorClassLoader() {
             protected boolean isPublicAndConcrete(Class<?> clazz) {
                 return true;
             }
@@ -20,7 +20,7 @@ public class OperatorEnumeratorCodeCoverageTest {
     public void exerciseClassNotFoundException() throws Exception {
         final ClassLoader saboteur = mock(ClassLoader.class);
         when(saboteur.loadClass(anyString())).thenThrow(new ClassNotFoundException());
-        new OperatorEnumerator() {
+        new DirectoryBasedOperatorClassLoader() {
             protected ClassLoader getClassloader() {
                 return saboteur;
             }

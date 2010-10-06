@@ -1,0 +1,34 @@
+!|scenario|Given a new calculator|
+|reset|
+
+!|scenario|with|value|
+|setV1|@value|
+
+!|scenario|and then _|value|
+|setV1|@value|
+
+!|scenario|and _|value|
+|setV1|@value|
+
+!|scenario|when calculating its|operatorName|
+|set operator|@operatorName|
+
+!|scenario|then the result should be _|value|
+|check|result|@value|
+
+!|scenario|when adding a program named _|name|
+|set name|@name|
+
+!|scenario|with a description of "_"|programText|
+
+!|scenario|with the values|values|
+|setGiven|@values|
+
+!|scenario|and a program named|name|
+|set name|@name|
+
+!|scenario|and the steps|steps|
+|set steps|@steps|
+
+!|scenario|when executing|name|
+|set name|@name|

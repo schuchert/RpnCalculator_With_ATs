@@ -1,0 +1,5 @@
+!define TEST_SYSTEM {slim}
+!path fitnesse.jar
+!path RpnCalculator.jar
+
+!contents -R2 -g -p -f -h
