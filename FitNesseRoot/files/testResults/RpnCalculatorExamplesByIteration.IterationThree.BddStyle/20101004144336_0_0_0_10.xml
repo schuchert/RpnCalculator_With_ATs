@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>BddStyle</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>42</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-182251155428832130');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-182251155428832130"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="-182251155428832130"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('3654654284455442212');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img3654654284455442212"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary">.RpnCalculatorExamplesByIteration.ScenarioLibrary</a> <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="3654654284455442212"><table border="1" cellspacing="0" _TABLENUMBER=1902917188176235642>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2494572254413566691>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2127786638362275764>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8716240118089851766>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5399211903792369931>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4106903644443323282>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5954955082128900596');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img5954955082128900596"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorExamplesByIteration.SetUp">.RpnCalculatorExamplesByIteration.SetUp</a> <a href="RpnCalculatorExamplesByIteration.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="5954955082128900596"><table border="1" cellspacing="0" _TABLENUMBER=7604250061862880047>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=8122439626217313076><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=fail>Given a new calculator</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-7894396368931266017');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7894396368931266017"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-7894396368931266017"><table border="1" cellspacing="0" _TABLENUMBER=1489449479196790560 table_name="scriptTable_7_0/scriptTable_0">
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>when adding a program named min <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+<tr><td class=fail>with a description of "2 ndup &lt; if drop else swap drop then"</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-8838462354832698598');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8838462354832698598"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-8838462354832698598"><table border="1" cellspacing="0" _TABLENUMBER=1768496618584196159 table_name="scriptTable_7_2/scriptTable_1">
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">The instance scriptTableActor. does not exist</span></td>
+<td colspan="2">a description of "2 ndup &lt; if drop else swap drop then"</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>when executing it with 4, 6 <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+<tr><td class=fail>then the result should be 4</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4977785686925275071');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4977785686925275071"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="4977785686925275071"><table border="1" cellspacing="0" _TABLENUMBER=6337574099386299247 table_name="scriptTable_7_4/scriptTable_5">
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>4 <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>BddStyle</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_6</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a new calculator]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_0/scriptTable_0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when adding a program named min error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with a description of "2 ndup &lt; if drop else swap drop then"]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_2/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when executing it with 4, 6 error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then the result should be 4]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_4/scriptTable_5)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_0/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_2/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></col>
+                    <col><![CDATA[a description of "2 ndup &lt; if drop else swap drop then"]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_4/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[4 error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_6_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_0/scriptTable_0_0, call, scriptTableActor, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_0/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[reset]]></expected>
+                              <evaluationMessage><![CDATA[reset error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_1, call, scriptTableActor, whenAddingAProgramNamedMin]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[when adding a program named min]]></expected>
+                              <evaluationMessage><![CDATA[when adding a program named min error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_2/scriptTable_1_0, call, scriptTableActor, setV1, a description of "2 ndup < if drop else swap drop then"]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2/scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_3, call, scriptTableActor, whenExecutingItWith46]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[when executing it with 4, 6]]></expected>
+                              <evaluationMessage><![CDATA[when executing it with 4, 6 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_4/scriptTable_5_0, call, scriptTableActor, result]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4/scriptTable_5_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[4]]></expected>
+                              <evaluationMessage><![CDATA[4 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

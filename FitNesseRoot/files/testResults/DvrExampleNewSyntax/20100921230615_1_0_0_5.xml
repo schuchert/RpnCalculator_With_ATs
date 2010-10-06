@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>DvrExampleNewSyntax</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <runTimeInMillis>55</runTimeInMillis>
+    <content><![CDATA[<span class="meta">variable defined: TEST_SYSTEM=slim</span><br/><span class="meta">classpath: fitnesse.jar</span><br/><span class="meta">classpath: /Users/schuchert/src/new_fitnesse_table_example/fitnesse-tutorials/DVR/bin</span><br/><br/><table border="1" cellspacing="0" _TABLENUMBER=4267597057156717980>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.example.dvr.fixtures</td>
+</tr>
+</table>
+<br/>This is from a previous example:<br/><br/><table border="1" cellspacing="0" _TABLENUMBER=5689464300552688434>
+<tr><td>Script</td>
+<td colspan="11"><span class="pass">Generate Programs</span></td>
+</tr>
+<tr><td>Create Daily Program Named</td>
+<td>D5_1</td>
+<td>On Channel</td>
+<td>5</td>
+<td>Starting On</td>
+<td>3/4/2008</td>
+<td>at</td>
+<td>20:00</td>
+<td>Length</td>
+<td>30</td>
+<td>Episodes</td>
+<td>7</td>
+</tr>
+</table>
+<br/>This accomplishes something similar using a different syntax:<br/><br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_2_1"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('3078357679909371815');"><img src="/files/images/collapsableClosed.gif" class="left" id="img3078357679909371815"/></a>&nbsp;<span class="meta">scriptTable_2_1 </span>
+
+	<div class="hidden" id="3078357679909371815"><pre>__EXCEPTION__:java.lang.NumberFormatException: For input string: "@channel"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at fitnesse.slim.converters.IntConverter.fromString(IntConverter.java:13)
+	at fitnesse.slim.MethodExecutor.convertArgs(MethodExecutor.java:65)
+	at fitnesse.slim.MethodExecutor.convertArgs(MethodExecutor.java:40)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:87)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:156)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></div>
+</div></div><hr/><table border="1" cellspacing="0" _TABLENUMBER=6677528079640796208>
+<tr><td>script</td>
+<td>Create Daily Program Named _ On Channel _ Starting On _ at _ Length _ Episodes _ <span class="error">Could not invoke constructor for CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_[6]</span></td>
+<td>name</td>
+<td>channel</td>
+<td>startDate</td>
+<td>startTime</td>
+<td>length</td>
+<td colspan="5">count</td>
+</tr>
+<tr><td>Create Daily Program Named</td>
+<td>@name</td>
+<td>On Channel</td>
+<td>@channel</td>
+<td>Starting On</td>
+<td>@startDate</td>
+<td>at</td>
+<td>@startTime</td>
+<td>Length</td>
+<td>@length</td>
+<td>Episodes</td>
+<td>@count</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8816303021392523867>
+<tr><td>script</td>
+</tr>
+<tr><td>Create Daily Program Named D6_1 On Channel 6 Starting On 3/4/2008 at 20:00 Length 30 Episodes 7 <span class="error">Method CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7[0] not found in com.om.example.dvr.fixtures.GeneratePrograms.</span></td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>DvrExampleNewSyntax</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.example.dvr.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[Script]]></col>
+                    <col><![CDATA[pass(Generate Programs)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Create Daily Program Named]]></col>
+                    <col><![CDATA[D5_1]]></col>
+                    <col><![CDATA[On Channel]]></col>
+                    <col><![CDATA[5]]></col>
+                    <col><![CDATA[Starting On]]></col>
+                    <col><![CDATA[3/4/2008]]></col>
+                    <col><![CDATA[at]]></col>
+                    <col><![CDATA[20:00]]></col>
+                    <col><![CDATA[Length]]></col>
+                    <col><![CDATA[30]]></col>
+                    <col><![CDATA[Episodes]]></col>
+                    <col><![CDATA[7]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_2</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[Create Daily Program Named _ On Channel _ Starting On _ at _ Length _ Episodes _ error(Could not invoke constructor for CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_[6])]]></col>
+                    <col><![CDATA[name]]></col>
+                    <col><![CDATA[channel]]></col>
+                    <col><![CDATA[startDate]]></col>
+                    <col><![CDATA[startTime]]></col>
+                    <col><![CDATA[length]]></col>
+                    <col><![CDATA[count]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Create Daily Program Named]]></col>
+                    <col><![CDATA[@name]]></col>
+                    <col><![CDATA[On Channel]]></col>
+                    <col><![CDATA[@channel]]></col>
+                    <col><![CDATA[Starting On]]></col>
+                    <col><![CDATA[@startDate]]></col>
+                    <col><![CDATA[at]]></col>
+                    <col><![CDATA[@startTime]]></col>
+                    <col><![CDATA[Length]]></col>
+                    <col><![CDATA[@length]]></col>
+                    <col><![CDATA[Episodes]]></col>
+                    <col><![CDATA[@count]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_3</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Create Daily Program Named D6_1 On Channel 6 Starting On 3/4/2008 at 20:00 Length 30 Episodes 7 error(Method CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7[0] not found in com.om.example.dvr.fixtures.GeneratePrograms.)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, com.om.example.dvr.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, GeneratePrograms]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Generate Programs]]></expected>
+                              <evaluationMessage><![CDATA[pass(Generate Programs)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_1, call, scriptTableActor, CreateDailyProgramNamedOnChannelStartingOnAtLengthEpisodes, D5_1, 5, 3/4/2008, 20:00, 30, 7]]]></instruction>
+        <slimResult><![CDATA[(D5_1:5)]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>5</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>7</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>9</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>11</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[(D5_1:5)]]></actual>
+                              <expected><![CDATA[Create Daily Program Named]]></expected>
+                              <evaluationMessage><![CDATA[Create Daily Program Named]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_0, make, scriptTableActor, CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_, name, channel, startDate, startTime, length, count]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_[6]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_[6]]]></actual>
+                              <expected><![CDATA[Create Daily Program Named _ On Channel _ Starting On _ at _ Length _ Episodes _]]></expected>
+                              <evaluationMessage><![CDATA[Create Daily Program Named _ On Channel _ Starting On _ at _ Length _ Episodes _ error(Could not invoke constructor for CreateDailyProgramNamed_OnChannel_StartingOn_At_Length_Episodes_[6])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_1, call, scriptTableActor, CreateDailyProgramNamedOnChannelStartingOnAtLengthEpisodes, @name, @channel, @startDate, @startTime, @length, @count]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>2</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[name]]></expected>
+                              <evaluationMessage><![CDATA[name]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>3</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[channel]]></expected>
+                              <evaluationMessage><![CDATA[channel]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>4</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[startDate]]></expected>
+                              <evaluationMessage><![CDATA[startDate]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>5</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[startTime]]></expected>
+                              <evaluationMessage><![CDATA[startTime]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>6</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[length]]></expected>
+                              <evaluationMessage><![CDATA[length]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>7</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[count]]></expected>
+                              <evaluationMessage><![CDATA[count]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>5</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>7</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>9</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>11</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_2_1>scriptTable_2_1</a>]]></actual>
+                              <expected><![CDATA[Create Daily Program Named]]></expected>
+                              <evaluationMessage><![CDATA[Create Daily Program Named]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_0, call, scriptTableActor, CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7]]]></instruction>
+        <slimResult><![CDATA[!error:Method CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7[0] not found in com.om.example.dvr.fixtures.GeneratePrograms.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7[0] not found in com.om.example.dvr.fixtures.GeneratePrograms.]]></actual>
+                              <expected><![CDATA[Create Daily Program Named D6_1 On Channel 6 Starting On 3/4/2008 at 20:00 Length 30 Episodes 7]]></expected>
+                              <evaluationMessage><![CDATA[Create Daily Program Named D6_1 On Channel 6 Starting On 3/4/2008 at 20:00 Length 30 Episodes 7 error(Method CreateDailyProgramNamedD6_1OnChannel6StartingOn342008At2000Length30Episodes7[0] not found in com.om.example.dvr.fixtures.GeneratePrograms.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

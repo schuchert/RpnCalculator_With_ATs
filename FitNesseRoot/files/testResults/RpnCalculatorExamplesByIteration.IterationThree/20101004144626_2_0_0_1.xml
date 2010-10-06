@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>IterationThree</rootPath>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationThree.BddStyle</name>
+    <date>10/04/2010 14:46:26</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationThree.BddStyle?pageHistory&amp;resultDate=20101004144626</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>103</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingLongForm</name>
+    <date>10/04/2010 14:46:26</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingLongForm?pageHistory&amp;resultDate=20101004144626</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>54</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingShortForm</name>
+    <date>10/04/2010 14:46:26</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingShortForm?pageHistory&amp;resultDate=20101004144626</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>40</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>2</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>741</totalRunTimeInMillis>
+
+</suiteResults>
+

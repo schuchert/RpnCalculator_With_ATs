@@ -1,0 +1,587 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>ProgrammingLongForm</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>98</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5200153308027469525');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img5200153308027469525"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="5200153308027469525"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2305363530965701206');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2305363530965701206"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary">.RpnCalculatorExamplesByIteration.ScenarioLibrary</a> <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="2305363530965701206"><table border="1" cellspacing="0" _TABLENUMBER=1485420301248051143>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4331458368978230915>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4111546372737210474>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6505794592725546544>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8122772444522843286>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5396239755664531885>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('808672491285922961');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img808672491285922961"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorExamplesByIteration.SetUp">.RpnCalculatorExamplesByIteration.SetUp</a> <a href="RpnCalculatorExamplesByIteration.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="808672491285922961"><table border="1" cellspacing="0" _TABLENUMBER=7450631133189534598>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=8511460009485804614>
+<tr><td>script</td>
+<td colspan="2"><span class="pass">programming the calculator</span></td>
+</tr>
+<tr><td colspan="3">startProgram</td>
+</tr>
+<tr><td>addStep</td>
+<td colspan="2">+</td>
+</tr>
+<tr><td>addStep</td>
+<td colspan="2">*</td>
+</tr>
+<tr><td>addStep</td>
+<td colspan="2">-</td>
+</tr>
+<tr><td>save</td>
+<td colspan="2">ams</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">3</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">5</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">2</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">13</td>
+</tr>
+<tr><td>perform</td>
+<td colspan="2">ams</td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>xIs</td>
+<td>-72</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>ProgrammingLongForm</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_6</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(programming the calculator)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[startProgram]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep]]></col>
+                    <col><![CDATA[+]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep]]></col>
+                    <col><![CDATA[*]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep]]></col>
+                    <col><![CDATA[-]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save]]></col>
+                    <col><![CDATA[ams]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[3]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[5]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[2]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[13]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[perform]]></col>
+                    <col><![CDATA[ams]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[xIs]]></col>
+                    <col><![CDATA[-72]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_6_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_0, make, scriptTableActor, ProgrammingTheCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[programming the calculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(programming the calculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_1, call, scriptTableActor, startProgram]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[startProgram]]></expected>
+                              <evaluationMessage><![CDATA[startProgram]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_2, call, scriptTableActor, addStep, +]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_3, call, scriptTableActor, addStep, *]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_4, call, scriptTableActor, addStep, -]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_5, call, scriptTableActor, save, ams]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_5</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[save]]></expected>
+                              <evaluationMessage><![CDATA[save]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_6, call, scriptTableActor, enter, 3]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_6</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_6</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_7, call, scriptTableActor, enter, 5]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_7</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_7</instructionId>
+          <col>0</col>
+          <row>7</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_8, call, scriptTableActor, enter, 2]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_8</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_8</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_9, call, scriptTableActor, enter, 13]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_9</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_9</instructionId>
+          <col>0</col>
+          <row>9</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_10, call, scriptTableActor, perform, ams]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_10</instructionId>
+          <col>1</col>
+          <row>10</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_10</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[perform]]></expected>
+                              <evaluationMessage><![CDATA[perform]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_11, call, scriptTableActor, xIs, -72]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_7_11</instructionId>
+          <col>0</col>
+          <row>11</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_11</instructionId>
+          <col>2</col>
+          <row>11</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

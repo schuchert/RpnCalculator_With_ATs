@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>MovingFromGoExample</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>12</exceptions>
+    </counts>
+    <content><![CDATA[<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5117265877666202679');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5117265877666202679"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp">.MonopolyStories.BasicPlayerMovementExamples.SetUp</a> <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-5117265877666202679"><table border="1" cellspacing="0" _TABLENUMBER=4547048647517625512>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.monopoly</td>
+</tr>
+</table>
+<br/><table class="plain_text_table" _TABLENUMBER=5122680913428572723><tr class="hidden"><td>script</td>
+</tr>
+<tr><td>Given a standard monopoly board <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table><br/><table border="1" cellspacing="0" _TABLENUMBER=1962539258861736954>
+<tr><td>script</td>
+<td>MonopolyFixture <span class="error">Could not invoke constructor for MonopolyFixture[0]</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=3715956358790460986><tr class="hidden"><td>script</td>
+</tr>
+<tr><td>Given Horse starting on Go <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+<tr><td>and Dice always returning 7 <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+<tr><td>When Horse takes a turn <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+<tr><td>Then Horse will end up on "Community Chess" <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table>]]></content>
+    <relativePageName>MovingFromGoExample</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.monopoly]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a standard monopoly board error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_2</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[MonopolyFixture error(Could not invoke constructor for MonopolyFixture[0])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_3</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given Horse starting on Go error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning 7 error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When Horse takes a turn error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then Horse will end up on "Community Chess" error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, com.om.monopoly]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, call, scriptTableActor, GivenAStandardMonopolyBoard]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[Given a standard monopoly board]]></expected>
+                              <evaluationMessage><![CDATA[Given a standard monopoly board error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_2_0, make, scriptTableActor, MonopolyFixture]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for MonopolyFixture[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for MonopolyFixture[0]]]></actual>
+                              <expected><![CDATA[MonopolyFixture]]></expected>
+                              <evaluationMessage><![CDATA[MonopolyFixture error(Could not invoke constructor for MonopolyFixture[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_0, call, scriptTableActor, GivenHorseStartingOnGo]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[Given Horse starting on Go]]></expected>
+                              <evaluationMessage><![CDATA[Given Horse starting on Go error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_1, call, scriptTableActor, andDiceAlwaysReturning7]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_3_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[and Dice always returning 7]]></expected>
+                              <evaluationMessage><![CDATA[and Dice always returning 7 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_2, call, scriptTableActor, WhenHorseTakesATurn]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_3_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[When Horse takes a turn]]></expected>
+                              <evaluationMessage><![CDATA[When Horse takes a turn error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_3, call, scriptTableActor, ThenHorseWillEndUpOnCommunityChess]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_3_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[Then Horse will end up on "Community Chess"]]></expected>
+                              <evaluationMessage><![CDATA[Then Horse will end up on "Community Chess" error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

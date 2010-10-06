@@ -1,0 +1,1057 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>ProgrammingExample</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4746198724471147754');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4746198724471147754"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="4746198724471147754"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-329137479907559916');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-329137479907559916"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculator.ScenarioLibrary">.RpnCalculator.ScenarioLibrary</a> <a href="RpnCalculator.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-329137479907559916"><table border="1" cellspacing="0" _TABLENUMBER=4402503221781597722>
+<tr><td>scenario</td>
+<td>Given an RpnCalculator</td>
+</tr>
+<tr><td colspan="2">reset calculator</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7004988341308992571>
+<tr><td>scenario</td>
+<td>When creating a program</td>
+</tr>
+<tr><td colspan="2">start program</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8038355730365533755>
+<tr><td>scenario</td>
+<td>with operator</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1747480996717837876>
+<tr><td>scenario</td>
+<td>and operator _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8846749464638235185>
+<tr><td>scenario</td>
+<td>and saving that as _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>save program as</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2707113452048450422>
+<tr><td>scenario</td>
+<td>Then the operator _ should be found</td>
+<td>operatorName</td>
+</tr>
+<tr><td>ensure</td>
+<td>operator exists</td>
+<td>@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3854768653689494040>
+<tr><td>scenario</td>
+<td>Given the previous RpnCalculator</td>
+</tr>
+<tr><td colspan="2">use existing calculator</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3588587105906481533>
+<tr><td>scenario</td>
+<td>and then entering _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8659031529347885638>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=781772207603757592>
+<tr><td>scenario</td>
+<td>When executing _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>execute</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8563682662692443251>
+<tr><td>scenario</td>
+<td>Then the result should be _</td>
+<td>expected</td>
+</tr>
+<tr><td>check</td>
+<td>xRegister</td>
+<td>@expected</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-8072629636515549634');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8072629636515549634"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculator.SetUp">.RpnCalculator.SetUp</a> <a href="RpnCalculator.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-8072629636515549634"><table border="1" cellspacing="0" _TABLENUMBER=360554920695743962>
+<tr><td>import</td>
+</tr>
+<tr><td>com.statefarm.rpn.fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6738713551519620642>
+<tr><td>script</td>
+<td><span class="pass">RpnCalculatorFixture</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=1530801086591545068><tr class="hidden"><td colspan="2">script</td>
+</tr>
+<tr><td colspan="2" class=pass>Given an RpnCalculator</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4457770915290364221');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4457770915290364221"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="4457770915290364221"><table border="1" cellspacing="0" _TABLENUMBER=6466049284084185298 table_name="scriptTable_13_0/scriptTable_0">
+<tr><td>scenario</td>
+<td>Given an RpnCalculator</td>
+</tr>
+<tr><td colspan="2">reset calculator</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="2" class=pass>When creating a program</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('6985252700963848111');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6985252700963848111"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="6985252700963848111"><table border="1" cellspacing="0" _TABLENUMBER=2423829233353652386 table_name="scriptTable_13_1/scriptTable_1">
+<tr><td>scenario</td>
+<td>When creating a program</td>
+</tr>
+<tr><td colspan="2">start program</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>with operator</td>
+<td class=pass>+</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-8547278012439422262');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8547278012439422262"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-8547278012439422262"><table border="1" cellspacing="0" _TABLENUMBER=7626163646820203132 table_name="scriptTable_13_2/scriptTable_2">
+<tr><td>scenario</td>
+<td>with operator</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program</td>
+<td colspan="2">+</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="2" class=pass>and operator _/</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('8853219177880150678');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8853219177880150678"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="8853219177880150678"><table border="1" cellspacing="0" _TABLENUMBER=5189610883749746886 table_name="scriptTable_13_3/scriptTable_3">
+<tr><td>scenario</td>
+<td>and operator _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program</td>
+<td colspan="2">_/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="2" class=pass>and saving that as _+/</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('7529867908256753630');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img7529867908256753630"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="7529867908256753630"><table border="1" cellspacing="0" _TABLENUMBER=2386593281195078223 table_name="scriptTable_13_4/scriptTable_4">
+<tr><td>scenario</td>
+<td>and saving that as _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>save program as</td>
+<td colspan="2">_+/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="2" class=pass>Then the operator _+/ should be found</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4858626171767300967');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4858626171767300967"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4858626171767300967"><table border="1" cellspacing="0" _TABLENUMBER=7635453446421890365 table_name="scriptTable_13_5/scriptTable_5">
+<tr><td>scenario</td>
+<td>Then the operator _ should be found</td>
+<td>operatorName</td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>operator exists</td>
+<td>_+/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table><br/><table class="plain_text_table" _TABLENUMBER=3624751366306540356><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=pass>Given the previous RpnCalculator</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4033206112744367809');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4033206112744367809"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4033206112744367809"><table border="1" cellspacing="0" _TABLENUMBER=1749519153047995796 table_name="scriptTable_14_0/scriptTable_6">
+<tr><td>scenario</td>
+<td>Given the previous RpnCalculator</td>
+</tr>
+<tr><td colspan="2">use existing calculator</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and then entering 4</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-7105937509131281715');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7105937509131281715"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-7105937509131281715"><table border="1" cellspacing="0" _TABLENUMBER=6087787781836286941 table_name="scriptTable_14_1/scriptTable_7">
+<tr><td>scenario</td>
+<td>and then entering _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">4</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and 7</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4708356926048282856');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4708356926048282856"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4708356926048282856"><table border="1" cellspacing="0" _TABLENUMBER=7406020144711153328 table_name="scriptTable_14_2/scriptTable_8">
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">7</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and 9</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-7072240204699934583');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7072240204699934583"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-7072240204699934583"><table border="1" cellspacing="0" _TABLENUMBER=7371684632665076762 table_name="scriptTable_14_3/scriptTable_8">
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">9</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>When executing _+/</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('8922758174778861178');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8922758174778861178"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="8922758174778861178"><table border="1" cellspacing="0" _TABLENUMBER=6736414535049406444 table_name="scriptTable_14_4/scriptTable_9">
+<tr><td>scenario</td>
+<td>When executing _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>execute</td>
+<td colspan="2">_+/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>Then the result should be 0.25</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('933163102922563302');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img933163102922563302"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="933163102922563302"><table border="1" cellspacing="0" _TABLENUMBER=2509870109239278238 table_name="scriptTable_14_5/scriptTable_10">
+<tr><td>scenario</td>
+<td>Then the result should be _</td>
+<td>expected</td>
+</tr>
+<tr><td>check</td>
+<td>xRegister</td>
+<td><span class="pass">0.25</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>ProgrammingExample</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When creating a program]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start program]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with operator]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and operator _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and saving that as _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save program as]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the operator _ should be found]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[operator exists]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[use existing calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then entering _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When executing _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[execute]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_10</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the result should be _]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[xRegister]]></col>
+                    <col><![CDATA[@expected]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_11</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.statefarm.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(RpnCalculatorFixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_0/scriptTable_0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When creating a program]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_1/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with operator]]></col>
+                    <col><![CDATA[+]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_2/scriptTable_2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and operator _/]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_3/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and saving that as _+/]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_4/scriptTable_4)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then the operator _+/ should be found]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_13_5/scriptTable_5)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_0/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_1/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When creating a program]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start program]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_2/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with operator]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program]]></col>
+                    <col><![CDATA[+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_3/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and operator _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program]]></col>
+                    <col><![CDATA[_/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_4/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and saving that as _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save program as]]></col>
+                    <col><![CDATA[_+/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_13_5/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the operator _ should be found]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[operator exists]]></col>
+                    <col><![CDATA[_+/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_0/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then entering 4]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_1/scriptTable_7)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 7]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_2/scriptTable_8)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 9]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_3/scriptTable_8)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When executing _+/]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_4/scriptTable_9)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then the result should be 0.25]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_14_5/scriptTable_10)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_0/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[use existing calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_1/scriptTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then entering _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[4]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_2/scriptTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[7]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_3/scriptTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[9]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_4/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When executing _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[execute]]></col>
+                    <col><![CDATA[_+/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_14_5/scriptTable_10</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the result should be _]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[xRegister]]></col>
+                    <col><![CDATA[pass(0.25)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_11_0, import, com.statefarm.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_0, make, scriptTableActor, RpnCalculatorFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_12_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[RpnCalculatorFixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(RpnCalculatorFixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_0/scriptTable_0_0, call, scriptTableActor, resetCalculator]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_0/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[reset calculator]]></expected>
+                              <evaluationMessage><![CDATA[reset calculator]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_1/scriptTable_1_0, call, scriptTableActor, startProgram]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_1/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[start program]]></expected>
+                              <evaluationMessage><![CDATA[start program]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_2/scriptTable_2_0, call, scriptTableActor, addToProgram, +]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_2/scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_2/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[add to program]]></expected>
+                              <evaluationMessage><![CDATA[add to program]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_3/scriptTable_3_0, call, scriptTableActor, addToProgram, _/]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_3/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_3/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[add to program]]></expected>
+                              <evaluationMessage><![CDATA[add to program]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_4/scriptTable_4_0, call, scriptTableActor, saveProgramAs, _+/]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_4/scriptTable_4_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_4/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[save program as]]></expected>
+                              <evaluationMessage><![CDATA[save program as]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_13_5/scriptTable_5_0, call, scriptTableActor, operatorExists, _+/]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_13_5/scriptTable_5_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_13_5/scriptTable_5_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_0/scriptTable_6_0, call, scriptTableActor, useExistingCalculator]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_0/scriptTable_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[use existing calculator]]></expected>
+                              <evaluationMessage><![CDATA[use existing calculator]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_1/scriptTable_7_0, call, scriptTableActor, enter, 4]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_1/scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_1/scriptTable_7_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_2/scriptTable_8_0, call, scriptTableActor, enter, 7]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_2/scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_2/scriptTable_8_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_3/scriptTable_8_0, call, scriptTableActor, enter, 9]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_3/scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_3/scriptTable_8_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_4/scriptTable_9_0, call, scriptTableActor, execute, _+/]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_4/scriptTable_9_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_14_4/scriptTable_9_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[execute]]></expected>
+                              <evaluationMessage><![CDATA[execute]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_14_5/scriptTable_10_0, call, scriptTableActor, xRegister]]]></instruction>
+        <slimResult><![CDATA[0.25]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_14_5/scriptTable_10_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[0.25]]></actual>
+                              <expected><![CDATA[0.25]]></expected>
+                              <evaluationMessage><![CDATA[pass(0.25)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>BddStyle</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>89</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2213699203735767964');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2213699203735767964"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="2213699203735767964"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8845495571833869960');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8845495571833869960"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary">.RpnCalculatorExamplesByIteration.ScenarioLibrary</a> <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="8845495571833869960"><table border="1" cellspacing="0" _TABLENUMBER=6986796218049138103>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3338793202546169667>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2006825328816834760>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=772718482677923414>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7220776645824181839>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4683783499699785840>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1738991293522170830>
+<tr><td>scenario</td>
+<td>when adding a program named _</td>
+<td>name</td>
+</tr>
+<tr><td>set name</td>
+<td colspan="2">@name</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=987673029268891471>
+<tr><td>scenario</td>
+<td>with a description of "_"</td>
+<td>programText</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-6963693788932606242');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6963693788932606242"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorExamplesByIteration.IterationThree.SetUp">.RpnCalculatorExamplesByIteration.IterationThree.SetUp</a> <a href="RpnCalculatorExamplesByIteration.IterationThree.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-6963693788932606242"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-7510688652447537824');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-7510688652447537824"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.SetUp">&lt;RpnCalculatorExamplesByIteration.SetUp</a> <a href="RpnCalculatorExamplesByIteration.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-7510688652447537824"><table border="1" cellspacing="0" _TABLENUMBER=7475390806795438153>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1015795679484321894>
+<tr><td>script</td>
+<td><span class="pass">ProgrammingTheCalculator</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=8904065433957271470>
+<tr><td colspan="2"><span class="fail">scenario: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: Scenario tables must have a name.
+	at fitnesse.slimTables.ScenarioTable.validateHeader(ScenarioTable.java:100)
+	at fitnesse.slimTables.ScenarioTable.parseTable(ScenarioTable.java:35)
+	at fitnesse.slimTables.ScenarioTable.appendInstructions(ScenarioTable.java:31)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:83)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:289)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:271)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:258)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:201)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:127)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:107)
+	at fitnesse.responders.run.MultipleTestsRunner.executePagesInTestSystem(MultipleTestsRunner.java:93)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:84)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:57)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:141)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:45)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></span></td>
+</tr>
+<tr><td colspan="2">Given a new calculator</td>
+</tr>
+<tr><td>with the values</td>
+<td>4 6</td>
+</tr>
+<tr><td>and a program named</td>
+<td>min</td>
+</tr>
+<tr><td>and the steps</td>
+<td>2 ndup &lt; if drop else swap drop then</td>
+</tr>
+<tr><td>when executing</td>
+<td>min</td>
+</tr>
+<tr><td>then the result should be</td>
+<td>4</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>BddStyle</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when adding a program named _]]></col>
+                    <col><![CDATA[name]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set name]]></col>
+                    <col><![CDATA[@name]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with a description of "_"]]></col>
+                    <col><![CDATA[programText]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_8</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_9</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(ProgrammingTheCalculator)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_10</name>
+                <row>
+                    <col><![CDATA[<span class="fail">scenario: Bad table: <br/><pre>fitnesse.slimTables.SlimTable$SyntaxError: Scenario tables must have a name.
+	at fitnesse.slimTables.ScenarioTable.validateHeader(ScenarioTable.java:100)
+	at fitnesse.slimTables.ScenarioTable.parseTable(ScenarioTable.java:35)
+	at fitnesse.slimTables.ScenarioTable.appendInstructions(ScenarioTable.java:31)
+	at fitnesse.slimTables.SlimTable.appendInstructions(SlimTable.java:83)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.createInstructions(SlimTestSystem.java:289)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processTablesAndGetHtml(SlimTestSystem.java:271)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.processAllTablesOnPage(SlimTestSystem.java:258)
+	at fitnesse.responders.run.slimResponder.SlimTestSystem.runTestsAndGenerateHtml(SlimTestSystem.java:201)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestSystemPages(MultipleTestsRunner.java:127)
+	at fitnesse.responders.run.MultipleTestsRunner.startTestSystemAndExecutePages(MultipleTestsRunner.java:107)
+	at fitnesse.responders.run.MultipleTestsRunner.executePagesInTestSystem(MultipleTestsRunner.java:93)
+	at fitnesse.responders.run.MultipleTestsRunner.internalExecuteTestPages(MultipleTestsRunner.java:84)
+	at fitnesse.responders.run.MultipleTestsRunner.executeTestPages(MultipleTestsRunner.java:57)
+	at fitnesse.responders.run.TestResponder.performExecution(TestResponder.java:141)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:45)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></span>]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with the values]]></col>
+                    <col><![CDATA[4 6]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and a program named]]></col>
+                    <col><![CDATA[min]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and the steps]]></col>
+                    <col><![CDATA[2 ndup &lt; if drop else swap drop then]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when executing]]></col>
+                    <col><![CDATA[min]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then the result should be]]></col>
+                    <col><![CDATA[4]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_8_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_9_0, make, scriptTableActor, ProgrammingTheCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_9_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[ProgrammingTheCalculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(ProgrammingTheCalculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

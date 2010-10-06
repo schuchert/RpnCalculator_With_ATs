@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>BddStyle</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <runTimeInMillis>117</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('237911777496910154');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img237911777496910154"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="237911777496910154"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('1795412141906970457');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img1795412141906970457"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary">.RpnCalculatorExamplesByIteration.ScenarioLibrary</a> <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="1795412141906970457"><table border="1" cellspacing="0" _TABLENUMBER=7583931285426232035>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5194373689162587214>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8413027657114582079>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3995474275869968594>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2546709656610582639>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5901317876619520540>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8166277927470400415>
+<tr><td>scenario</td>
+<td>when adding a program named _</td>
+<td>name</td>
+</tr>
+<tr><td>set name</td>
+<td colspan="2">@name</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8420694641837497675>
+<tr><td>scenario</td>
+<td>with a description of "_"</td>
+<td>programText</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=226026762528378081>
+<tr><td>scenario</td>
+<td>with the values</td>
+<td>values</td>
+</tr>
+<tr><td>setGiven</td>
+<td colspan="2">@values</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5077929022561041958');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5077929022561041958"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorExamplesByIteration.IterationThree.SetUp">.RpnCalculatorExamplesByIteration.IterationThree.SetUp</a> <a href="RpnCalculatorExamplesByIteration.IterationThree.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-5077929022561041958"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-6102207657347290719');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img-6102207657347290719"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.SetUp">&lt;RpnCalculatorExamplesByIteration.SetUp</a> <a href="RpnCalculatorExamplesByIteration.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="collapsable" id="-6102207657347290719"><table border="1" cellspacing="0" _TABLENUMBER=5957633965689335569>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6034442007712253814>
+<tr><td>script</td>
+<td><span class="pass">ProgrammingTheCalculator</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=5566989589384402307>
+<tr><td>script</td>
+<td><span class="pass">Programming the calculator</span></td>
+</tr>
+<tr><td colspan="2" class=pass>Given a new calculator</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4697556697942550049');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4697556697942550049"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4697556697942550049"><table border="1" cellspacing="0" _TABLENUMBER=2097058739129545342 table_name="scriptTable_11_1/scriptTable_0">
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>with the values</td>
+<td class=pass>4 6</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-3892857175699188133');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3892857175699188133"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-3892857175699188133"><table border="1" cellspacing="0" _TABLENUMBER=214961498726969095 table_name="scriptTable_11_2/scriptTable_8">
+<tr><td>scenario</td>
+<td>with the values</td>
+<td>values</td>
+</tr>
+<tr><td>setGiven</td>
+<td colspan="2">4 6</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>and a program named</td>
+<td class=fail>min</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4385864988732589979');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4385864988732589979"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="4385864988732589979"><table border="1" cellspacing="0" _TABLENUMBER=4716407700330395833 table_name="scriptTable_11_3/scriptTable_3">
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td colspan="2">a program named</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>and the steps</td>
+<td class=fail>2 ndup &lt; if drop else swap drop then</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-2559723492762652411');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2559723492762652411"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-2559723492762652411"><table border="1" cellspacing="0" _TABLENUMBER=7140726437370915074 table_name="scriptTable_11_4/scriptTable_3">
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td colspan="2">the steps</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>when executing <span class="error">Method whenExecuting[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td>min</td>
+</tr>
+<tr><td class=fail>then the result should be</td>
+<td class=fail>4</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('9174666590892045960');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img9174666590892045960"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="9174666590892045960"><table border="1" cellspacing="0" _TABLENUMBER=5938915752007086583 table_name="scriptTable_11_6/scriptTable_5">
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>4 <span class="error">Method result[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>
+]]></content>
+    <relativePageName>BddStyle</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when adding a program named _]]></col>
+                    <col><![CDATA[name]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set name]]></col>
+                    <col><![CDATA[@name]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with a description of "_"]]></col>
+                    <col><![CDATA[programText]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with the values]]></col>
+                    <col><![CDATA[values]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setGiven]]></col>
+                    <col><![CDATA[@values]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_9</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(ProgrammingTheCalculator)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(Programming the calculator)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a new calculator]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_11_1/scriptTable_0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with the values]]></col>
+                    <col><![CDATA[4 6]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_11_2/scriptTable_8)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and a program named]]></col>
+                    <col><![CDATA[min]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_3/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and the steps]]></col>
+                    <col><![CDATA[2 ndup &lt; if drop else swap drop then]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_4/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when executing error(Method whenExecuting[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[min]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then the result should be]]></col>
+                    <col><![CDATA[4]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_6/scriptTable_5)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_1/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_2/scriptTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with the values]]></col>
+                    <col><![CDATA[values]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setGiven]]></col>
+                    <col><![CDATA[4 6]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_3/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[a program named]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_4/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[the steps]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_6/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[4 error(Method result[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_9_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0, make, scriptTableActor, ProgrammingTheCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_10_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[ProgrammingTheCalculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(ProgrammingTheCalculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_0, make, scriptTableActor, ProgrammingTheCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_11_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Programming the calculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(Programming the calculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_1/scriptTable_0_0, call, scriptTableActor, reset]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_1/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[reset]]></expected>
+                              <evaluationMessage><![CDATA[reset]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_2/scriptTable_8_0, call, scriptTableActor, setGiven, 4 6]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_2/scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_2/scriptTable_8_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[setGiven]]></expected>
+                              <evaluationMessage><![CDATA[setGiven]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_3/scriptTable_3_0, call, scriptTableActor, setV1, a program named]]]></instruction>
+        <slimResult><![CDATA[!error:Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_3/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_3/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_4/scriptTable_3_0, call, scriptTableActor, setV1, the steps]]]></instruction>
+        <slimResult><![CDATA[!error:Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_4/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_4/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(Method setV1[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_5, call, scriptTableActor, whenExecuting, min]]]></instruction>
+        <slimResult><![CDATA[!error:Method whenExecuting[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_5</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method whenExecuting[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[when executing]]></expected>
+                              <evaluationMessage><![CDATA[when executing error(Method whenExecuting[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_6/scriptTable_5_0, call, scriptTableActor, result]]]></instruction>
+        <slimResult><![CDATA[!error:Method result[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_6/scriptTable_5_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:Method result[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[4]]></expected>
+                              <evaluationMessage><![CDATA[4 error(Method result[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

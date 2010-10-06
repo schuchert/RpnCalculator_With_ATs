@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>IterationThree</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>10</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-5036012876165377874');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5036012876165377874"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="-5036012876165377874"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('786083941923684498');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img786083941923684498"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorWellsFargo2.ScenarioLibrary">.RpnCalculatorWellsFargo2.ScenarioLibrary</a> <a href="RpnCalculatorWellsFargo2.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="786083941923684498"><table border="1" cellspacing="0" _TABLENUMBER=1052103697264574251>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=493363686443203639>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7008321063140241943>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3969534725856052320>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2314730079219874343>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8142112447678748181>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('3977073572732735920');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img3977073572732735920"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorWellsFargo2.SetUp">.RpnCalculatorWellsFargo2.SetUp</a> <a href="RpnCalculatorWellsFargo2.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="3977073572732735920"><table border="1" cellspacing="0" _TABLENUMBER=7829661348353743609>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=5719317765929596253>
+<tr><td>script</td>
+<td><span class="pass">programming the calculator</span></td>
+</tr>
+<tr><td colspan="2">startProgram <span class="error">Method startProgram[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+</tr>
+<tr><td>addStep <span class="error">Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td>+</td>
+</tr>
+<tr><td>addStep <span class="error">Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td>*</td>
+</tr>
+<tr><td>addStep <span class="error">Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td>-</td>
+</tr>
+<tr><td>save <span class="error">Method save[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.</span></td>
+<td>ams</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>IterationThree</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_6</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(programming the calculator)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[startProgram error(Method startProgram[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[+]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[*]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[-]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save error(Method save[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></col>
+                    <col><![CDATA[ams]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_6_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_0, make, scriptTableActor, ProgrammingTheCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[programming the calculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(programming the calculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_1, call, scriptTableActor, startProgram]]]></instruction>
+        <slimResult><![CDATA[!error:Method startProgram[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method startProgram[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[startProgram]]></expected>
+                              <evaluationMessage><![CDATA[startProgram error(Method startProgram[0] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_2, call, scriptTableActor, addStep, +]]]></instruction>
+        <slimResult><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_3, call, scriptTableActor, addStep, *]]]></instruction>
+        <slimResult><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_4, call, scriptTableActor, addStep, -]]]></instruction>
+        <slimResult><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[addStep]]></expected>
+                              <evaluationMessage><![CDATA[addStep error(Method addStep[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_5, call, scriptTableActor, save, ams]]]></instruction>
+        <slimResult><![CDATA[!error:Method save[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_5</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_5</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method save[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.]]></actual>
+                              <expected><![CDATA[save]]></expected>
+                              <evaluationMessage><![CDATA[save error(Method save[1] not found in com.rpn.fixtures.ProgrammingTheCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

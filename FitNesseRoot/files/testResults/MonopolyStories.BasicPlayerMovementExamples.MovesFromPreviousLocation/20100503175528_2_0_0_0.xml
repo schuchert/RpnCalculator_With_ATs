@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>MovesFromPreviousLocation</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-8143726898382437706');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8143726898382437706"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="-8143726898382437706"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('1893220877515170857');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img1893220877515170857"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="MonopolyStories.ScenarioLibrary">.MonopolyStories.ScenarioLibrary</a> <a href="MonopolyStories.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="1893220877515170857"><table border="1" cellspacing="0" _TABLENUMBER=8554046493403572432>
+<tr><td>scenario</td>
+<td>Given a standard Monopoly Board</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1990058644729308280>
+<tr><td>scenario</td>
+<td>Given _ starting on _</td>
+<td colspan="2">playerName,locationName</td>
+</tr>
+<tr><td>createPlayerName</td>
+<td>@playerName</td>
+<td>onLocationNamed</td>
+<td>@locationName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5953300035746955960>
+<tr><td>scenario</td>
+<td>and Dice always returning _</td>
+<td>rollValue</td>
+</tr>
+<tr><td>createLoadedDiceReturning</td>
+<td colspan="2">@rollValue</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1444329527099801581>
+<tr><td>scenario</td>
+<td>When _ takes a turn</td>
+<td>playerName</td>
+</tr>
+<tr><td>takeTurn</td>
+<td colspan="2">@playerName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7409730742293178918>
+<tr><td>scenario</td>
+<td>Then it will end up on _</td>
+<td>locationName</td>
+</tr>
+<tr><td>ensure</td>
+<td>lastPlayerIsOn</td>
+<td>@locationName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4853484232836442652>
+<tr><td>scenario</td>
+<td>and then takes _ more turn</td>
+<td>count</td>
+</tr>
+<tr><td>haveLastPlayerTakeMoreTurns</td>
+<td colspan="2">@count</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6016489329843976598>
+<tr><td>scenario</td>
+<td>A player named</td>
+<td>playerName</td>
+<td>starts at</td>
+<td>startLocationName</td>
+<td>moves</td>
+<td>spaces</td>
+<td>and ends up on</td>
+<td>endLocationName</td>
+</tr>
+<tr><td colspan="9">Given @playerName starting on @startLocationName</td>
+</tr>
+<tr><td colspan="9">and Dice always returning @spaces</td>
+</tr>
+<tr><td colspan="9">When @playerName takes a turn</td>
+</tr>
+<tr><td colspan="9">Then it will end up on @endLocationName</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5665624144376462710');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img5665624144376462710"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp">.MonopolyStories.BasicPlayerMovementExamples.SetUp</a> <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="5665624144376462710"><table border="1" cellspacing="0" _TABLENUMBER=2452476361296534778>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.monopoly</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7932982864565167613>
+<tr><td>script</td>
+<td><span class="pass">Given a standard Monopoly Board</span></td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2160724816429085531>
+<tr><td>script</td>
+<td><span class="pass">MonopolyFixture</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=5191307878346757614><tr class="hidden"><td>scenario</td>
+<td>foo</td>
+</tr>
+<tr><td colspan="2">Given Car starting on Go</td>
+</tr>
+<tr><td colspan="2">and Dice always returning 10</td>
+</tr>
+<tr><td colspan="2">When Car takes a turn</td>
+</tr>
+<tr><td colspan="2">and then takes 1 more turn</td>
+</tr>
+<tr><td colspan="2">Then it will end up on "Free Parking"</td>
+</tr>
+</table>]]></content>
+    <relativePageName>MovesFromPreviousLocation</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a standard Monopoly Board]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given _ starting on _]]></col>
+                    <col><![CDATA[playerName,locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createPlayerName]]></col>
+                    <col><![CDATA[@playerName]]></col>
+                    <col><![CDATA[onLocationNamed]]></col>
+                    <col><![CDATA[@locationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and Dice always returning _]]></col>
+                    <col><![CDATA[rollValue]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createLoadedDiceReturning]]></col>
+                    <col><![CDATA[@rollValue]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When _ takes a turn]]></col>
+                    <col><![CDATA[playerName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[takeTurn]]></col>
+                    <col><![CDATA[@playerName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then it will end up on _]]></col>
+                    <col><![CDATA[locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[lastPlayerIsOn]]></col>
+                    <col><![CDATA[@locationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then takes _ more turn]]></col>
+                    <col><![CDATA[count]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[haveLastPlayerTakeMoreTurns]]></col>
+                    <col><![CDATA[@count]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[A player named]]></col>
+                    <col><![CDATA[playerName]]></col>
+                    <col><![CDATA[starts at]]></col>
+                    <col><![CDATA[startLocationName]]></col>
+                    <col><![CDATA[moves]]></col>
+                    <col><![CDATA[spaces]]></col>
+                    <col><![CDATA[and ends up on]]></col>
+                    <col><![CDATA[endLocationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given @playerName starting on @startLocationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning @spaces]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When @playerName takes a turn]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then it will end up on @endLocationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_7</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.monopoly]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(Given a standard Monopoly Board)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_9</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(MonopolyFixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_10</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[foo]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given Car starting on Go]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning 10]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When Car takes a turn]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then takes 1 more turn]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then it will end up on "Free Parking"]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_7_0, import, com.om.monopoly]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_0, make, scriptTableActor, GivenAStandardMonopolyBoard]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Given a standard Monopoly Board]]></expected>
+                              <evaluationMessage><![CDATA[pass(Given a standard Monopoly Board)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_9_0, make, scriptTableActor, MonopolyFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_9_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[MonopolyFixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(MonopolyFixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

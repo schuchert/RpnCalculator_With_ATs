@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>SumExample</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>14</exceptions>
+    </counts>
+    <runTimeInMillis>100</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5365557591257748351');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img5365557591257748351"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="5365557591257748351"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-2435565505140632432');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2435565505140632432"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary">.RpnCalculatorExamplesByIteration.ScenarioLibrary</a> <a href="RpnCalculatorExamplesByIteration.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-2435565505140632432"><table border="1" cellspacing="0" _TABLENUMBER=6423270155523915970>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3026355520070108761>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7187244272370435814>
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3074080108224625900>
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8150585152259291779>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1450280737367001359>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('4168835071724976599');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4168835071724976599"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorExamplesByIteration.IterationTwo.SetUp">.RpnCalculatorExamplesByIteration.IterationTwo.SetUp</a> <a href="RpnCalculatorExamplesByIteration.IterationTwo.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="4168835071724976599"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('8043611231219772968');">
+		<img src="/files/images/collapsableOpen.gif" class="left" id="img8043611231219772968"/>
+	</a>
+&nbsp;<span class="meta">Included page: &lt;RpnCalculatorWellsFargo2.SetUp<a title="create page" href="RpnCalculatorWellsFargo2.SetUp?edit&nonExistent=true">[?]</a> (edit)<a title="create page" href="RpnCalculatorWellsFargo2.SetUp?edit&amp;nonExistent=true">[?]</a></span>
+	<div class="collapsable" id="8043611231219772968"><span class="meta"><b>Page include failed because the page &lt;RpnCalculatorWellsFargo2.SetUp<a title="create page" href="RpnCalculatorWellsFargo2.SetUp?edit&nonExistent=true">[?]</a> does not exist.</b></span></div>
+</div>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6341435759631509305>
+<tr><td>script</td>
+<td>ExecuteCalculator <span class="error">Could not invoke constructor for ExecuteCalculator[0]</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=5395220629523430726><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=fail>Given a new calculator</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('6683042312324005510');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6683042312324005510"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="6683042312324005510"><table border="1" cellspacing="0" _TABLENUMBER=431734723179847000 table_name="scriptTable_7_0/scriptTable_0">
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>with 3</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4407955462803646243');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4407955462803646243"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-4407955462803646243"><table border="1" cellspacing="0" _TABLENUMBER=6792575634485376792 table_name="scriptTable_7_1/scriptTable_1">
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">The instance scriptTableActor. does not exist</span></td>
+<td colspan="2">3</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>and then 5</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4548076353191352054');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4548076353191352054"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="4548076353191352054"><table border="1" cellspacing="0" _TABLENUMBER=8735837167455203268 table_name="scriptTable_7_2/scriptTable_2">
+<tr><td>scenario</td>
+<td>and then _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">The instance scriptTableActor. does not exist</span></td>
+<td colspan="2">5</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>and 2</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-8683053898945591099');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8683053898945591099"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-8683053898945591099"><table border="1" cellspacing="0" _TABLENUMBER=4476385180815027993 table_name="scriptTable_7_3/scriptTable_3">
+<tr><td>scenario</td>
+<td>and _</td>
+<td>value</td>
+</tr>
+<tr><td>setV1 <span class="error">The instance scriptTableActor. does not exist</span></td>
+<td colspan="2">2</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>when calculating its sum</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4468254038547864493');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4468254038547864493"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-4468254038547864493"><table border="1" cellspacing="0" _TABLENUMBER=8214451675763842774 table_name="scriptTable_7_4/scriptTable_4">
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator <span class="error">The instance scriptTableActor. does not exist</span></td>
+<td colspan="2">sum</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>then the result should be 10</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6895675138235763904');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6895675138235763904"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-6895675138235763904"><table border="1" cellspacing="0" _TABLENUMBER=7655070609853121119 table_name="scriptTable_7_5/scriptTable_5">
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>10 <span class="error">The instance scriptTableActor. does not exist</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>SumExample</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_6</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[ExecuteCalculator error(Could not invoke constructor for ExecuteCalculator[0])]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a new calculator]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_0/scriptTable_0)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with 3]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_1/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then 5]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_2/scriptTable_2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 2]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_3/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when calculating its sum]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_4/scriptTable_4)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then the result should be 10]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_7_5/scriptTable_5)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_0/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_1/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></col>
+                    <col><![CDATA[3]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_2/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></col>
+                    <col><![CDATA[5]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_3/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></col>
+                    <col><![CDATA[2]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_4/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator error(The instance scriptTableActor. does not exist)]]></col>
+                    <col><![CDATA[sum]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7_5/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[10 error(The instance scriptTableActor. does not exist)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_6_0, make, scriptTableActor, ExecuteCalculator]]]></instruction>
+        <slimResult><![CDATA[!error:Could not invoke constructor for ExecuteCalculator[0]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_6_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[!error:Could not invoke constructor for ExecuteCalculator[0]]]></actual>
+                              <expected><![CDATA[ExecuteCalculator]]></expected>
+                              <evaluationMessage><![CDATA[ExecuteCalculator error(Could not invoke constructor for ExecuteCalculator[0])]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_0/scriptTable_0_0, call, scriptTableActor, reset]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_0/scriptTable_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[reset]]></expected>
+                              <evaluationMessage><![CDATA[reset error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_1/scriptTable_1_0, call, scriptTableActor, setV1, 3]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1/scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_2/scriptTable_2_0, call, scriptTableActor, setV1, 5]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2/scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_2/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_3/scriptTable_3_0, call, scriptTableActor, setV1, 2]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_3/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_4/scriptTable_4_0, call, scriptTableActor, setOperator, sum]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4/scriptTable_4_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_4/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[set operator]]></expected>
+                              <evaluationMessage><![CDATA[set operator error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_5/scriptTable_5_0, call, scriptTableActor, result]]]></instruction>
+        <slimResult><![CDATA[!error:The instance scriptTableActor. does not exist]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_5/scriptTable_5_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:The instance scriptTableActor. does not exist]]></actual>
+                              <expected><![CDATA[10]]></expected>
+                              <evaluationMessage><![CDATA[10 error(The instance scriptTableActor. does not exist)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

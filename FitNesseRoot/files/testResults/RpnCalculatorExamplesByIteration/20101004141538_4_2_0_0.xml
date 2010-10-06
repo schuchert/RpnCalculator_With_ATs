@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>RpnCalculatorExamplesByIteration</rootPath>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationOne</name>
+    <date>10/04/2010 14:15:38</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationOne?pageHistory&amp;resultDate=20101004141538</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>281</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingLongForm</name>
+    <date>10/04/2010 14:15:38</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingLongForm?pageHistory&amp;resultDate=20101004141538</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>34</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingShortForm</name>
+    <date>10/04/2010 14:15:38</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationThree.ProgrammingShortForm?pageHistory&amp;resultDate=20101004141538</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>33</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.ExtraCredit</name>
+    <date>10/04/2010 14:15:38</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.ExtraCredit?pageHistory&amp;resultDate=20101004141538</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>46</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.PrimeFactorsExample</name>
+    <date>10/04/2010 14:15:38</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.PrimeFactorsExample?pageHistory&amp;resultDate=20101004141538</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>26</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>137</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.SumExample</name>
+    <date>10/04/2010 14:15:39</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.SumExample?pageHistory&amp;resultDate=20101004141539</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>36</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>4</right>
+    <wrong>2</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1389</totalRunTimeInMillis>
+
+</suiteResults>
+

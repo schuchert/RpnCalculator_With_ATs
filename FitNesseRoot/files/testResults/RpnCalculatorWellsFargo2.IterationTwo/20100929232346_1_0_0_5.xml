@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>IterationTwo</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>5</exceptions>
+    </counts>
+    <runTimeInMillis>120</runTimeInMillis>
+    <content><![CDATA[<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-6010649150409908569');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6010649150409908569"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="RpnCalculatorWellsFargo2.SetUp">.RpnCalculatorWellsFargo2.SetUp</a> <a href="RpnCalculatorWellsFargo2.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-6010649150409908569"><table border="1" cellspacing="0" _TABLENUMBER=8548407625844553392>
+<tr><td>import</td>
+</tr>
+<tr><td>com.rpn.fixtures</td>
+</tr>
+</table>
+</div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=8602182559647049372>
+<tr><td>script</td>
+<td><span class="pass">ExecuteCalculator</span></td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8927853529000494265>
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7618493893163668142>
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2341586131572871163>
+<tr><td>scenario</td>
+<td>and then</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3995854191255907256>
+<tr><td>scenario</td>
+<td>and</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5608875970308346414>
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7479389209488536062>
+<tr><td>scenario</td>
+<td>then the result should be _</td>
+<td>value</td>
+</tr>
+<tr><td>check</td>
+<td>result</td>
+<td>@value</td>
+</tr>
+</table>
+<br/><div id="test_exceptions1"><H3> <span class="fail">Exceptions</span></H3><br/><a name="scriptTable_8_2/scriptTable_4_0"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-1558015870846595684');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-1558015870846595684"/></a>&nbsp;<span class="meta">scriptTable_8_2/scriptTable_4_0 </span>
+
+	<div class="hidden" id="-1558015870846595684"><pre>__EXCEPTION__:java.lang.NumberFormatException: For input string: "value"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at com.rpn.fixtures.ExecuteCalculator.enterNonBlank(ExecuteCalculator.java:15)
+	at com.rpn.fixtures.ExecuteCalculator.setV1(ExecuteCalculator.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:47)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:31)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:87)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:156)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></div>
+</div><a name="scriptTable_8_3/scriptTable_5_0"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('-4234045540848025290');"><img src="/files/images/collapsableClosed.gif" class="left" id="img-4234045540848025290"/></a>&nbsp;<span class="meta">scriptTable_8_3/scriptTable_5_0 </span>
+
+	<div class="hidden" id="-4234045540848025290"><pre>__EXCEPTION__:java.lang.NumberFormatException: For input string: "value"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at com.rpn.fixtures.ExecuteCalculator.enterNonBlank(ExecuteCalculator.java:15)
+	at com.rpn.fixtures.ExecuteCalculator.setV1(ExecuteCalculator.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:47)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:31)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:87)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:156)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></div>
+</div><a name="scriptTable_8_1/scriptTable_3_0"/><b></b><div class="collapse_rim"><div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div><a href="javascript:toggleCollapsable('3486030355692507505');"><img src="/files/images/collapsableClosed.gif" class="left" id="img3486030355692507505"/></a>&nbsp;<span class="meta">scriptTable_8_1/scriptTable_3_0 </span>
+
+	<div class="hidden" id="3486030355692507505"><pre>__EXCEPTION__:java.lang.NumberFormatException: For input string: "value"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:449)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at com.rpn.fixtures.ExecuteCalculator.enterNonBlank(ExecuteCalculator.java:15)
+	at com.rpn.fixtures.ExecuteCalculator.setV1(ExecuteCalculator.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:47)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:31)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:87)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:18)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:156)
+	at fitnesse.slim.Statement.callMethodAtIndex(Statement.java:99)
+	at fitnesse.slim.Statement.call(Statement.java:92)
+	at fitnesse.slim.Statement.execute(Statement.java:72)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:36)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:93)
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:78)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:30)
+	at fitnesse.socketservice.SocketService$ServerRunner.run(SocketService.java:95)
+	at java.lang.Thread.run(Thread.java:637)
+</pre></div>
+</div></div><hr/><table class="plain_text_table" _TABLENUMBER=961795087244022288><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=pass>Given a new calculator</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-7169591452328127293');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7169591452328127293"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-7169591452328127293"><table border="1" cellspacing="0" _TABLENUMBER=972042902928714536 table_name="scriptTable_8_0/scriptTable_2">
+<tr><td>scenario</td>
+<td>Given a new calculator</td>
+</tr>
+<tr><td colspan="2">reset</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>with 3</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('453752700803976254');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img453752700803976254"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="453752700803976254"><table border="1" cellspacing="0" _TABLENUMBER=4332050727118914810 table_name="scriptTable_8_1/scriptTable_3">
+<tr><td>scenario</td>
+<td>with</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and then 5</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5350179833455527037');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5350179833455527037"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-5350179833455527037"><table border="1" cellspacing="0" _TABLENUMBER=7709626774352255628 table_name="scriptTable_8_2/scriptTable_4">
+<tr><td>scenario</td>
+<td>and then</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and 2</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5836493848648869309');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5836493848648869309"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-5836493848648869309"><table border="1" cellspacing="0" _TABLENUMBER=7520250535807796736 table_name="scriptTable_8_3/scriptTable_5">
+<tr><td>scenario</td>
+<td>and</td>
+<td>value</td>
+</tr>
+<tr><td>setV1</td>
+<td colspan="2">value</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>when calculating its sum</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('8444457747320623751');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8444457747320623751"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="8444457747320623751"><table border="1" cellspacing="0" _TABLENUMBER=2115604227561985786 table_name="scriptTable_8_4/scriptTable_6">
+<tr><td>scenario</td>
+<td>when calculating its</td>
+<td>operatorName</td>
+</tr>
+<tr><td>set operator</td>
+<td colspan="2">sum</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>then result should be 10 <span class="error">Method thenResultShouldBe10[0] not found in com.rpn.fixtures.ExecuteCalculator.</span></td>
+</tr>
+</table>]]></content>
+    <relativePageName>IterationTwo</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_1</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(ExecuteCalculator)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the result should be _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[result]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a new calculator]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_0/scriptTable_2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with 3]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then 5]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_2/scriptTable_4)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 2]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_3/scriptTable_5)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[when calculating its sum]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_4/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then result should be 10 error(Method thenResultShouldBe10[0] not found in com.rpn.fixtures.ExecuteCalculator.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_0/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a new calculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_2/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_3/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[setV1]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_4/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[when calculating its]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[set operator]]></col>
+                    <col><![CDATA[sum]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, com.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_1_0, make, scriptTableActor, ExecuteCalculator]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[ExecuteCalculator]]></expected>
+                              <evaluationMessage><![CDATA[pass(ExecuteCalculator)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_0/scriptTable_2_0, call, scriptTableActor, reset]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_0/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[reset]]></expected>
+                              <evaluationMessage><![CDATA[reset]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_1/scriptTable_3_0, call, scriptTableActor, setV1, value]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_8_1/scriptTable_3_0>scriptTable_8_1/scriptTable_3_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_8_1/scriptTable_3_0>scriptTable_8_1/scriptTable_3_0</a>]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_2/scriptTable_4_0, call, scriptTableActor, setV1, value]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_8_2/scriptTable_4_0>scriptTable_8_2/scriptTable_4_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_4_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_8_2/scriptTable_4_0>scriptTable_8_2/scriptTable_4_0</a>]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_3/scriptTable_5_0, call, scriptTableActor, setV1, value]]]></instruction>
+        <slimResult><![CDATA[Exception: <a href=#scriptTable_8_3/scriptTable_5_0>scriptTable_8_3/scriptTable_5_0</a>]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_3/scriptTable_5_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_3/scriptTable_5_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[Exception: <a href=#scriptTable_8_3/scriptTable_5_0>scriptTable_8_3/scriptTable_5_0</a>]]></actual>
+                              <expected><![CDATA[setV1]]></expected>
+                              <evaluationMessage><![CDATA[setV1]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_4/scriptTable_6_0, call, scriptTableActor, setOperator, sum]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_4/scriptTable_6_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_4/scriptTable_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[set operator]]></expected>
+                              <evaluationMessage><![CDATA[set operator]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_5, call, scriptTableActor, thenResultShouldBe10]]]></instruction>
+        <slimResult><![CDATA[!error:Method thenResultShouldBe10[0] not found in com.rpn.fixtures.ExecuteCalculator.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method thenResultShouldBe10[0] not found in com.rpn.fixtures.ExecuteCalculator.]]></actual>
+                              <expected><![CDATA[then result should be 10]]></expected>
+                              <evaluationMessage><![CDATA[then result should be 10 error(Method thenResultShouldBe10[0] not found in com.rpn.fixtures.ExecuteCalculator.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

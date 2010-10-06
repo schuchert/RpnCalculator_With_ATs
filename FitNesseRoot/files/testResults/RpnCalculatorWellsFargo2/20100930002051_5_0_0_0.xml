@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>RpnCalculatorWellsFargo2</rootPath>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationOne</name>
+    <date>09/30/2010 00:20:51</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationOne?pageHistory&amp;resultDate=20100930002051</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>507</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo</name>
+    <date>09/30/2010 00:20:51</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo?pageHistory&amp;resultDate=20100930002051</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>18</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.ExtraCredit</name>
+    <date>09/30/2010 00:20:51</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.ExtraCredit?pageHistory&amp;resultDate=20100930002051</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>91</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.PrimeFactorsExample</name>
+    <date>09/30/2010 00:20:52</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.PrimeFactorsExample?pageHistory&amp;resultDate=20100930002052</pageHistoryLink>
+    <counts>
+      <right>31</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>378</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.SumExample</name>
+    <date>09/30/2010 00:20:52</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.SumExample?pageHistory&amp;resultDate=20100930002052</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>48</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>5</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3871</totalRunTimeInMillis>
+
+</suiteResults>
+

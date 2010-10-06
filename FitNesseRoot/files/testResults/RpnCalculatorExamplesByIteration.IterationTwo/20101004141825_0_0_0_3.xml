@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>IterationTwo</rootPath>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.ExtraCredit</name>
+    <date>10/04/2010 14:18:25</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.ExtraCredit?pageHistory&amp;resultDate=20101004141825</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>37</exceptions>
+    </counts>
+    <runTimeInMillis>79</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.PrimeFactorsExample</name>
+    <date>10/04/2010 14:18:25</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.PrimeFactorsExample?pageHistory&amp;resultDate=20101004141825</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>178</exceptions>
+    </counts>
+    <runTimeInMillis>133</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorExamplesByIteration.IterationTwo.SumExample</name>
+    <date>10/04/2010 14:18:25</date>
+    <pageHistoryLink>RpnCalculatorExamplesByIteration.IterationTwo.SumExample?pageHistory&amp;resultDate=20101004141825</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>14</exceptions>
+    </counts>
+    <runTimeInMillis>100</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>3</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>913</totalRunTimeInMillis>
+
+</suiteResults>
+

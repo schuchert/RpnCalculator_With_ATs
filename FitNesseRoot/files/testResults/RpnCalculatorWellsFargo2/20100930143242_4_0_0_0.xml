@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>RpnCalculatorWellsFargo2</rootPath>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationOne</name>
+    <date>09/30/2010 14:32:42</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationOne?pageHistory&amp;resultDate=20100930143242</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>253</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.ExtraCredit</name>
+    <date>09/30/2010 14:32:42</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.ExtraCredit?pageHistory&amp;resultDate=20100930143242</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>67</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.PrimeFactorsExample</name>
+    <date>09/30/2010 14:32:43</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.PrimeFactorsExample?pageHistory&amp;resultDate=20100930143243</pageHistoryLink>
+    <counts>
+      <right>31</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>185</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>RpnCalculatorWellsFargo2.IterationTwo.SumExample</name>
+    <date>09/30/2010 14:32:43</date>
+    <pageHistoryLink>RpnCalculatorWellsFargo2.IterationTwo.SumExample?pageHistory&amp;resultDate=20100930143243</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>45</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>4</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1233</totalRunTimeInMillis>
+
+</suiteResults>
+

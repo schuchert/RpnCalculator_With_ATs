@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>BackToGoInOneLine</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('5356996910620333923');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img5356996910620333923"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="5356996910620333923"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-2082331914881162334');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2082331914881162334"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="MonopolyStories.ScenarioLibrary">.MonopolyStories.ScenarioLibrary</a> <a href="MonopolyStories.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-2082331914881162334"><table border="1" cellspacing="0" _TABLENUMBER=7836614366018943891>
+<tr><td>scenario</td>
+<td>Given a standard Monopoly Board</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1129708574586539423>
+<tr><td>scenario</td>
+<td>Given _ starting on _</td>
+<td colspan="2">playerName,locationName</td>
+</tr>
+<tr><td>createPlayerName</td>
+<td>@playerName</td>
+<td>onLocationNamed</td>
+<td>@locationName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3466255056803672062>
+<tr><td>scenario</td>
+<td>and Dice always returning _</td>
+<td>rollValue</td>
+</tr>
+<tr><td>createLoadedDiceReturning</td>
+<td colspan="2">@rollValue</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5278887420783589799>
+<tr><td>scenario</td>
+<td>When _ takes a turn</td>
+<td>playerName</td>
+</tr>
+<tr><td>takeTurn</td>
+<td colspan="2">@playerName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=555104880542020551>
+<tr><td>scenario</td>
+<td>Then it will end up on _</td>
+<td>locationName</td>
+</tr>
+<tr><td>ensure</td>
+<td>lastPlayerIsOn</td>
+<td>@locationName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8203257467073681631>
+<tr><td>scenario</td>
+<td>and then takes _ more turn</td>
+<td>count</td>
+</tr>
+<tr><td>haveLastPlayerTakeMoreTurns</td>
+<td colspan="2">@count</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=790280314114881026>
+<tr><td>scenario</td>
+<td>A player named</td>
+<td>playerName</td>
+<td>starts at</td>
+<td>startLocationName</td>
+<td>moves</td>
+<td>spaces</td>
+<td>and ends up on</td>
+<td>endLocationName</td>
+</tr>
+<tr><td colspan="9">Given @playerName starting on @startLocationName</td>
+</tr>
+<tr><td colspan="9">and Dice always returning @spaces</td>
+</tr>
+<tr><td colspan="9">When @playerName takes a turn</td>
+</tr>
+<tr><td colspan="9">Then it will end up on @endLocationName</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-1762166430744968664');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-1762166430744968664"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp">.MonopolyStories.BasicPlayerMovementExamples.SetUp</a> <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-1762166430744968664"><table border="1" cellspacing="0" _TABLENUMBER=2696458555300997618>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.monopoly</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7174624226938598022>
+<tr><td>script</td>
+<td><span class="pass">Given a standard Monopoly Board</span></td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7131060901660770670>
+<tr><td>script</td>
+<td><span class="pass">MonopolyFixture</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=6912471632219083722><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=pass>A player named Horse starts at Go moves 40 and ends up on Go</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4142983280985386280');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4142983280985386280"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="4142983280985386280"><table border="1" cellspacing="0" _TABLENUMBER=6911996196542975759 table_name="scriptTable_10_0/scriptTable_6">
+<tr><td>scenario</td>
+<td>A player named</td>
+<td>playerName</td>
+<td>starts at</td>
+<td>startLocationName</td>
+<td>moves</td>
+<td>spaces</td>
+<td>and ends up on</td>
+<td>endLocationName</td>
+</tr>
+<tr><td colspan="9" class=pass>Given Horse starting on Go</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-1274809892596177892');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-1274809892596177892"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-1274809892596177892"><table border="1" cellspacing="0" _TABLENUMBER=910670547667289689 table_name="scriptTable_10_0/scriptTable_6_0/scriptTable_1">
+<tr><td>scenario</td>
+<td>Given _ starting on _</td>
+<td colspan="2">playerName,locationName</td>
+</tr>
+<tr><td>createPlayerName</td>
+<td>Horse</td>
+<td>onLocationNamed</td>
+<td>Go</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="9" class=pass>and Dice always returning 40</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4485142535373145658');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4485142535373145658"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-4485142535373145658"><table border="1" cellspacing="0" _TABLENUMBER=6907177049381322869 table_name="scriptTable_10_0/scriptTable_6_1/scriptTable_2">
+<tr><td>scenario</td>
+<td>and Dice always returning _</td>
+<td>rollValue</td>
+</tr>
+<tr><td>createLoadedDiceReturning</td>
+<td colspan="2">40</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="9" class=pass>When Horse takes a turn</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-3970705464515888824');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-3970705464515888824"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-3970705464515888824"><table border="1" cellspacing="0" _TABLENUMBER=6999220112644385691 table_name="scriptTable_10_0/scriptTable_6_2/scriptTable_3">
+<tr><td>scenario</td>
+<td>When _ takes a turn</td>
+<td>playerName</td>
+</tr>
+<tr><td>takeTurn</td>
+<td colspan="2">Horse</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td colspan="9" class=pass>Then it will end up on Go</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('6253859787300332103');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img6253859787300332103"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="6253859787300332103"><table border="1" cellspacing="0" _TABLENUMBER=2088921710557516103 table_name="scriptTable_10_0/scriptTable_6_3/scriptTable_4">
+<tr><td>scenario</td>
+<td>Then it will end up on _</td>
+<td>locationName</td>
+</tr>
+<tr><td><span class="pass">ensure</span></td>
+<td>lastPlayerIsOn</td>
+<td>Go</td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>BackToGoInOneLine</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a standard Monopoly Board]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given _ starting on _]]></col>
+                    <col><![CDATA[playerName,locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createPlayerName]]></col>
+                    <col><![CDATA[@playerName]]></col>
+                    <col><![CDATA[onLocationNamed]]></col>
+                    <col><![CDATA[@locationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and Dice always returning _]]></col>
+                    <col><![CDATA[rollValue]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createLoadedDiceReturning]]></col>
+                    <col><![CDATA[@rollValue]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When _ takes a turn]]></col>
+                    <col><![CDATA[playerName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[takeTurn]]></col>
+                    <col><![CDATA[@playerName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then it will end up on _]]></col>
+                    <col><![CDATA[locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[lastPlayerIsOn]]></col>
+                    <col><![CDATA[@locationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then takes _ more turn]]></col>
+                    <col><![CDATA[count]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[haveLastPlayerTakeMoreTurns]]></col>
+                    <col><![CDATA[@count]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[A player named]]></col>
+                    <col><![CDATA[playerName]]></col>
+                    <col><![CDATA[starts at]]></col>
+                    <col><![CDATA[startLocationName]]></col>
+                    <col><![CDATA[moves]]></col>
+                    <col><![CDATA[spaces]]></col>
+                    <col><![CDATA[and ends up on]]></col>
+                    <col><![CDATA[endLocationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given @playerName starting on @startLocationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning @spaces]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When @playerName takes a turn]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then it will end up on @endLocationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_7</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.monopoly]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(Given a standard Monopoly Board)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_9</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(MonopolyFixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[A player named Horse starts at Go moves 40 and ends up on Go]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_10_0/scriptTable_6)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10_0/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[A player named]]></col>
+                    <col><![CDATA[playerName]]></col>
+                    <col><![CDATA[starts at]]></col>
+                    <col><![CDATA[startLocationName]]></col>
+                    <col><![CDATA[moves]]></col>
+                    <col><![CDATA[spaces]]></col>
+                    <col><![CDATA[and ends up on]]></col>
+                    <col><![CDATA[endLocationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given Horse starting on Go]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_10_0/scriptTable_6_0/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning 40]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_10_0/scriptTable_6_1/scriptTable_2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When Horse takes a turn]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_10_0/scriptTable_6_2/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then it will end up on Go]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_10_0/scriptTable_6_3/scriptTable_4)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10_0/scriptTable_6_0/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given _ starting on _]]></col>
+                    <col><![CDATA[playerName,locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createPlayerName]]></col>
+                    <col><![CDATA[Horse]]></col>
+                    <col><![CDATA[onLocationNamed]]></col>
+                    <col><![CDATA[Go]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10_0/scriptTable_6_1/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and Dice always returning _]]></col>
+                    <col><![CDATA[rollValue]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createLoadedDiceReturning]]></col>
+                    <col><![CDATA[40]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10_0/scriptTable_6_2/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When _ takes a turn]]></col>
+                    <col><![CDATA[playerName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[takeTurn]]></col>
+                    <col><![CDATA[Horse]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10_0/scriptTable_6_3/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then it will end up on _]]></col>
+                    <col><![CDATA[locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[lastPlayerIsOn]]></col>
+                    <col><![CDATA[Go]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_7_0, import, com.om.monopoly]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_0, make, scriptTableActor, GivenAStandardMonopolyBoard]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Given a standard Monopoly Board]]></expected>
+                              <evaluationMessage><![CDATA[pass(Given a standard Monopoly Board)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_9_0, make, scriptTableActor, MonopolyFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_9_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[MonopolyFixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(MonopolyFixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0/scriptTable_6_0/scriptTable_1_0, call, scriptTableActor, createPlayerNameOnLocationNamed, Horse, Go]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_0/scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_0/scriptTable_1_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_0/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[createPlayerName]]></expected>
+                              <evaluationMessage><![CDATA[createPlayerName]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0/scriptTable_6_1/scriptTable_2_0, call, scriptTableActor, createLoadedDiceReturning, 40]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_1/scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_1/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[createLoadedDiceReturning]]></expected>
+                              <evaluationMessage><![CDATA[createLoadedDiceReturning]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0/scriptTable_6_2/scriptTable_3_0, call, scriptTableActor, takeTurn, Horse]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_2/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_2/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[takeTurn]]></expected>
+                              <evaluationMessage><![CDATA[takeTurn]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0/scriptTable_6_3/scriptTable_4_0, call, scriptTableActor, lastPlayerIsOn, Go]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_3/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_10_0/scriptTable_6_3/scriptTable_4_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

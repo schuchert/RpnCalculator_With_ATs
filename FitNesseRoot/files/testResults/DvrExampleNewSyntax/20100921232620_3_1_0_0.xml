@@ -1,0 +1,869 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100711</FitNesseVersion>
+  <rootPath>DvrExampleNewSyntax</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>125</runTimeInMillis>
+    <content><![CDATA[<span class="meta">variable defined: TEST_SYSTEM=slim</span><br/><span class="meta">classpath: fitnesse.jar</span><br/><span class="meta">classpath: /Users/schuchert/src/new_fitnesse_table_example/fitnesse-tutorials/DVR/bin</span><br/><br/><table border="1" cellspacing="0" _TABLENUMBER=1094686339246750404>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.example.dvr.fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1845285510984327316>
+<tr><td><span class="pass">Table:Create One Day Program Guide</span></td>
+<td>1:00</td>
+<td colspan="13">3/4/2008</td>
+</tr>
+<tr><td>&nbsp;</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+</tr>
+<tr><td>200</td>
+<td>aaaa</td>
+<td>BBcc</td>
+<td>cccc</td>
+<td>ccDD</td>
+<td>DDee</td>
+<td>efff</td>
+<td>ffff</td>
+<td>fffg</td>
+<td>gggg</td>
+<td>gggh</td>
+<td>hhii</td>
+<td>jklm</td>
+<td>nopq</td>
+<td>rstt</td>
+</tr>
+<tr><td>247</td>
+<td>aaaa</td>
+<td>BBBB</td>
+<td>cccc</td>
+<td>DDDD</td>
+<td>eeee</td>
+<td>FFFF</td>
+<td>gggg</td>
+<td>HHHH</td>
+<td>iiii</td>
+<td>JJJJ</td>
+<td>kkkk</td>
+<td>LLLL</td>
+<td>mmmm</td>
+<td>NNNN</td>
+</tr>
+<tr><td>302</td>
+<td>aaBB</td>
+<td>ccDD</td>
+<td>eeFF</td>
+<td>ggHH</td>
+<td>iiJJ</td>
+<td>kkLL</td>
+<td>mmNN</td>
+<td>ooPP</td>
+<td>qqRR</td>
+<td>ssTT</td>
+<td>uuVV</td>
+<td>wwww</td>
+<td>wwXX</td>
+<td>XXXy</td>
+</tr>
+<tr><td>501</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>aaBB</td>
+<td>ccDD</td>
+<td>eeFF</td>
+<td>ggHH</td>
+<td>iiJJ</td>
+<td>kkLL</td>
+<td>mmNN</td>
+<td>ooPP</td>
+<td>qqRR</td>
+</tr>
+<tr><td>556</td>
+<td>&nbsp;</td>
+<td>__aa</td>
+<td>BBcc</td>
+<td>DDee</td>
+<td>FFgg</td>
+<td>HHii</td>
+<td>JJkk</td>
+<td>LLmm</td>
+<td>NNoo</td>
+<td>PPqq</td>
+<td>RRss</td>
+<td>TTuu</td>
+<td>VVxx</td>
+<td>xxxx</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4541828193978973649>
+<tr><td>Scenario</td>
+<td>dvrCanSimultaneouslyRecord</td>
+<td>number</td>
+<td>andWithThese</td>
+<td>seasonPasses</td>
+<td>shouldHaveTheFollowing</td>
+<td>toDoList</td>
+</tr>
+<tr><td>givenDvrCanRecord</td>
+<td colspan="6">@number</td>
+</tr>
+<tr><td>whenICreateSeasonPasses</td>
+<td colspan="6">@seasonPasses</td>
+</tr>
+<tr><td>thenTheToDoListShouldContain</td>
+<td colspan="6">@toDoList</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2486730523178165257>
+<tr><td>Script</td>
+<td><span class="pass">Dvr Recording</span></td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8933849276008114456>
+<tr><td colspan="3">Dvr Can Simultaneously Record And With These Should Have The Following</td>
+</tr>
+<tr><td>number</td>
+<td>seasonPasses</td>
+<td>toDoList</td>
+</tr>
+<tr><td class=pass>1</td>
+<td class=pass>hhh:200,uu:302</td>
+<td class=pass>hhh:E:1-1</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-1178397711512210807');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-1178397711512210807"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-1178397711512210807"><table border="1" cellspacing="0" _TABLENUMBER=3472492539409080729 table_name="decisionTable_4_0/scriptTable_2">
+<tr><td>Scenario</td>
+<td>dvrCanSimultaneouslyRecord</td>
+<td>number</td>
+<td>andWithThese</td>
+<td>seasonPasses</td>
+<td>shouldHaveTheFollowing</td>
+<td>toDoList</td>
+</tr>
+<tr><td>givenDvrCanRecord</td>
+<td colspan="6">1</td>
+</tr>
+<tr><td>whenICreateSeasonPasses</td>
+<td colspan="6">hhh:200,uu:302</td>
+</tr>
+<tr><td><span class="pass">thenTheToDoListShouldContain</span></td>
+<td colspan="6">hhh:E:1-1</td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2792626592873053718>
+<tr><td>scenario</td>
+<td>Given a dvr with _ recorder</td>
+<td>number</td>
+</tr>
+<tr><td>givenDvrCanRecord</td>
+<td colspan="2">@number</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3058808140656066225>
+<tr><td>scenario</td>
+<td>and a season pass for _</td>
+<td>seasonPass</td>
+</tr>
+<tr><td>whenICreateSeasonPasses</td>
+<td colspan="2">@seasonPass</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4591343962635190989>
+<tr><td>scenario</td>
+<td>then the to do list should contain</td>
+<td>expected</td>
+</tr>
+<tr><td>thenTheToDoListShouldContain</td>
+<td colspan="2">@expected</td>
+</tr>
+</table>
+<br/><table class="plain_text_table" _TABLENUMBER=861556067968856029><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=pass>Given a dvr with 1 recorder</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('803302321508915930');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img803302321508915930"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="803302321508915930"><table border="1" cellspacing="0" _TABLENUMBER=2285836636554246081 table_name="scriptTable_8_0/scriptTable_5">
+<tr><td>scenario</td>
+<td>Given a dvr with _ recorder</td>
+<td>number</td>
+</tr>
+<tr><td>givenDvrCanRecord</td>
+<td colspan="2">1</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and a season pass for cccccccc:200</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5676228096163453967');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5676228096163453967"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-5676228096163453967"><table border="1" cellspacing="0" _TABLENUMBER=2724868582938759962 table_name="scriptTable_8_1/scriptTable_6">
+<tr><td>scenario</td>
+<td>and a season pass for _</td>
+<td>seasonPass</td>
+</tr>
+<tr><td>whenICreateSeasonPasses</td>
+<td colspan="2">cccccccc:200</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=pass>and a season pass for FF:302</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5090677299355372550');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5090677299355372550"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-5090677299355372550"><table border="1" cellspacing="0" _TABLENUMBER=8169984251608352836 table_name="scriptTable_8_2/scriptTable_6">
+<tr><td>scenario</td>
+<td>and a season pass for _</td>
+<td>seasonPass</td>
+</tr>
+<tr><td>whenICreateSeasonPasses</td>
+<td colspan="2">FF:302</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>then the to do list should contain cccccccc:E:1-1</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-4452762354122276372');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-4452762354122276372"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-4452762354122276372"><table border="1" cellspacing="0" _TABLENUMBER=2214535978454547392 table_name="scriptTable_8_3/scriptTable_7">
+<tr><td>scenario</td>
+<td>then the to do list should contain</td>
+<td>expected</td>
+</tr>
+<tr><td><span class="fail">thenTheToDoListShouldContain</span></td>
+<td colspan="2">cccccccc:E:1-1</td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>DvrExampleNewSyntax</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.example.dvr.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>tableTable_1</name>
+                <row>
+                    <col><![CDATA[pass(Table:Create One Day Program Guide)]]></col>
+                    <col><![CDATA[1:00]]></col>
+                    <col><![CDATA[3/4/2008]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[1]]></col>
+                    <col><![CDATA[2]]></col>
+                    <col><![CDATA[3]]></col>
+                    <col><![CDATA[4]]></col>
+                    <col><![CDATA[5]]></col>
+                    <col><![CDATA[6]]></col>
+                    <col><![CDATA[7]]></col>
+                    <col><![CDATA[8]]></col>
+                    <col><![CDATA[9]]></col>
+                    <col><![CDATA[10]]></col>
+                    <col><![CDATA[11]]></col>
+                    <col><![CDATA[12]]></col>
+                    <col><![CDATA[13]]></col>
+                    <col><![CDATA[14]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[200]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[BBcc]]></col>
+                    <col><![CDATA[cccc]]></col>
+                    <col><![CDATA[ccDD]]></col>
+                    <col><![CDATA[DDee]]></col>
+                    <col><![CDATA[efff]]></col>
+                    <col><![CDATA[ffff]]></col>
+                    <col><![CDATA[fffg]]></col>
+                    <col><![CDATA[gggg]]></col>
+                    <col><![CDATA[gggh]]></col>
+                    <col><![CDATA[hhii]]></col>
+                    <col><![CDATA[jklm]]></col>
+                    <col><![CDATA[nopq]]></col>
+                    <col><![CDATA[rstt]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[247]]></col>
+                    <col><![CDATA[aaaa]]></col>
+                    <col><![CDATA[BBBB]]></col>
+                    <col><![CDATA[cccc]]></col>
+                    <col><![CDATA[DDDD]]></col>
+                    <col><![CDATA[eeee]]></col>
+                    <col><![CDATA[FFFF]]></col>
+                    <col><![CDATA[gggg]]></col>
+                    <col><![CDATA[HHHH]]></col>
+                    <col><![CDATA[iiii]]></col>
+                    <col><![CDATA[JJJJ]]></col>
+                    <col><![CDATA[kkkk]]></col>
+                    <col><![CDATA[LLLL]]></col>
+                    <col><![CDATA[mmmm]]></col>
+                    <col><![CDATA[NNNN]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[302]]></col>
+                    <col><![CDATA[aaBB]]></col>
+                    <col><![CDATA[ccDD]]></col>
+                    <col><![CDATA[eeFF]]></col>
+                    <col><![CDATA[ggHH]]></col>
+                    <col><![CDATA[iiJJ]]></col>
+                    <col><![CDATA[kkLL]]></col>
+                    <col><![CDATA[mmNN]]></col>
+                    <col><![CDATA[ooPP]]></col>
+                    <col><![CDATA[qqRR]]></col>
+                    <col><![CDATA[ssTT]]></col>
+                    <col><![CDATA[uuVV]]></col>
+                    <col><![CDATA[wwww]]></col>
+                    <col><![CDATA[wwXX]]></col>
+                    <col><![CDATA[XXXy]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[501]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[aaBB]]></col>
+                    <col><![CDATA[ccDD]]></col>
+                    <col><![CDATA[eeFF]]></col>
+                    <col><![CDATA[ggHH]]></col>
+                    <col><![CDATA[iiJJ]]></col>
+                    <col><![CDATA[kkLL]]></col>
+                    <col><![CDATA[mmNN]]></col>
+                    <col><![CDATA[ooPP]]></col>
+                    <col><![CDATA[qqRR]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[556]]></col>
+                    <col><![CDATA[]]></col>
+                    <col><![CDATA[__aa]]></col>
+                    <col><![CDATA[BBcc]]></col>
+                    <col><![CDATA[DDee]]></col>
+                    <col><![CDATA[FFgg]]></col>
+                    <col><![CDATA[HHii]]></col>
+                    <col><![CDATA[JJkk]]></col>
+                    <col><![CDATA[LLmm]]></col>
+                    <col><![CDATA[NNoo]]></col>
+                    <col><![CDATA[PPqq]]></col>
+                    <col><![CDATA[RRss]]></col>
+                    <col><![CDATA[TTuu]]></col>
+                    <col><![CDATA[VVxx]]></col>
+                    <col><![CDATA[xxxx]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[Scenario]]></col>
+                    <col><![CDATA[dvrCanSimultaneouslyRecord]]></col>
+                    <col><![CDATA[number]]></col>
+                    <col><![CDATA[andWithThese]]></col>
+                    <col><![CDATA[seasonPasses]]></col>
+                    <col><![CDATA[shouldHaveTheFollowing]]></col>
+                    <col><![CDATA[toDoList]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[givenDvrCanRecord]]></col>
+                    <col><![CDATA[@number]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[whenICreateSeasonPasses]]></col>
+                    <col><![CDATA[@seasonPasses]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[thenTheToDoListShouldContain]]></col>
+                    <col><![CDATA[@toDoList]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_3</name>
+                <row>
+                    <col><![CDATA[Script]]></col>
+                    <col><![CDATA[pass(Dvr Recording)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_4</name>
+                <row>
+                    <col><![CDATA[Dvr Can Simultaneously Record And With These Should Have The Following]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[number]]></col>
+                    <col><![CDATA[seasonPasses]]></col>
+                    <col><![CDATA[toDoList]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[1]]></col>
+                    <col><![CDATA[hhh:200,uu:302]]></col>
+                    <col><![CDATA[hhh:E:1-1]]></col>
+                    <col><![CDATA[pass(scenario:decisionTable_4_0/scriptTable_2)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>decisionTable_4_0/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[Scenario]]></col>
+                    <col><![CDATA[dvrCanSimultaneouslyRecord]]></col>
+                    <col><![CDATA[number]]></col>
+                    <col><![CDATA[andWithThese]]></col>
+                    <col><![CDATA[seasonPasses]]></col>
+                    <col><![CDATA[shouldHaveTheFollowing]]></col>
+                    <col><![CDATA[toDoList]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[givenDvrCanRecord]]></col>
+                    <col><![CDATA[1]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[whenICreateSeasonPasses]]></col>
+                    <col><![CDATA[hhh:200,uu:302]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(thenTheToDoListShouldContain)]]></col>
+                    <col><![CDATA[hhh:E:1-1]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a dvr with _ recorder]]></col>
+                    <col><![CDATA[number]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[givenDvrCanRecord]]></col>
+                    <col><![CDATA[@number]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and a season pass for _]]></col>
+                    <col><![CDATA[seasonPass]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[whenICreateSeasonPasses]]></col>
+                    <col><![CDATA[@seasonPass]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the to do list should contain]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[thenTheToDoListShouldContain]]></col>
+                    <col><![CDATA[@expected]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a dvr with 1 recorder]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_0/scriptTable_5)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and a season pass for cccccccc:200]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and a season pass for FF:302]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_2/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[then the to do list should contain cccccccc:E:1-1]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_8_3/scriptTable_7)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_0/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a dvr with _ recorder]]></col>
+                    <col><![CDATA[number]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[givenDvrCanRecord]]></col>
+                    <col><![CDATA[1]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and a season pass for _]]></col>
+                    <col><![CDATA[seasonPass]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[whenICreateSeasonPasses]]></col>
+                    <col><![CDATA[cccccccc:200]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_2/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and a season pass for _]]></col>
+                    <col><![CDATA[seasonPass]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[whenICreateSeasonPasses]]></col>
+                    <col><![CDATA[FF:302]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_3/scriptTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[then the to do list should contain]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[fail(thenTheToDoListShouldContain)]]></col>
+                    <col><![CDATA[cccccccc:E:1-1]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, com.om.example.dvr.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[tableTable_1_0, make, tableTable_1, CreateOneDayProgramGuide, 1:00, 3/4/2008]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>tableTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Table:Create One Day Program Guide]]></expected>
+                              <evaluationMessage><![CDATA[pass(Table:Create One Day Program Guide)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[tableTable_1_1, call, tableTable_1, doTable, [[, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [200, aaaa, BBcc, cccc, ccDD, DDee, efff, ffff, fffg, gggg, gggh, hhii, jklm, nopq, rstt], [247, aaaa, BBBB, cccc, DDDD, eeee, FFFF, gggg, HHHH, iiii, JJJJ, kkkk, LLLL, mmmm, NNNN], [302, aaBB, ccDD, eeFF, ggHH, iiJJ, kkLL, mmNN, ooPP, qqRR, ssTT, uuVV, wwww, wwXX, XXXy], [501, , , , , , aaBB, ccDD, eeFF, ggHH, iiJJ, kkLL, mmNN, ooPP, qqRR], [556, , __aa, BBcc, DDee, FFgg, HHii, JJkk, LLmm, NNoo, PPqq, RRss, TTuu, VVxx, xxxx]]]]]></instruction>
+        <slimResult><![CDATA[[]]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>tableTable_1_1</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[[]]]></actual>
+                              <expected><![CDATA[1:00]]></expected>
+                              <evaluationMessage><![CDATA[1:00]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>tableTable_1_1</instructionId>
+          <col>2</col>
+          <row>0</row>
+          <type>VoidReturnExpectation</type>
+                    <actual><![CDATA[[]]]></actual>
+                              <expected><![CDATA[3/4/2008]]></expected>
+                              <evaluationMessage><![CDATA[3/4/2008]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_3_0, make, scriptTableActor, DvrRecording]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[Dvr Recording]]></expected>
+                              <evaluationMessage><![CDATA[pass(Dvr Recording)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_0/scriptTable_2_0, call, scriptTableActor, givenDvrCanRecord, 1]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[givenDvrCanRecord]]></expected>
+                              <evaluationMessage><![CDATA[givenDvrCanRecord]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_0/scriptTable_2_1, call, scriptTableActor, whenICreateSeasonPasses, hhh:200,uu:302]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_1</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[whenICreateSeasonPasses]]></expected>
+                              <evaluationMessage><![CDATA[whenICreateSeasonPasses]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[decisionTable_4_0/scriptTable_2_2, call, scriptTableActor, thenTheToDoListShouldContain, hhh:E:1-1]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>right</status>
+          <instructionId>decisionTable_4_0/scriptTable_2_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[thenTheToDoListShouldContain]]></expected>
+                              <evaluationMessage><![CDATA[pass(thenTheToDoListShouldContain)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_0/scriptTable_5_0, call, scriptTableActor, givenDvrCanRecord, 1]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_0/scriptTable_5_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_0/scriptTable_5_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[givenDvrCanRecord]]></expected>
+                              <evaluationMessage><![CDATA[givenDvrCanRecord]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_1/scriptTable_6_0, call, scriptTableActor, whenICreateSeasonPasses, cccccccc:200]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[whenICreateSeasonPasses]]></expected>
+                              <evaluationMessage><![CDATA[whenICreateSeasonPasses]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_2/scriptTable_6_0, call, scriptTableActor, whenICreateSeasonPasses, FF:302]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_6_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[whenICreateSeasonPasses]]></expected>
+                              <evaluationMessage><![CDATA[whenICreateSeasonPasses]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_3/scriptTable_7_0, call, scriptTableActor, thenTheToDoListShouldContain, cccccccc:E:1-1]]]></instruction>
+        <slimResult><![CDATA[false]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_3/scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>wrong</status>
+          <instructionId>scriptTable_8_3/scriptTable_7_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[false]]></actual>
+                              <expected><![CDATA[thenTheToDoListShouldContain]]></expected>
+                              <evaluationMessage><![CDATA[fail(thenTheToDoListShouldContain)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

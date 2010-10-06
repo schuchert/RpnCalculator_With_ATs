@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>MovingFromGoExample</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>8</exceptions>
+    </counts>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-965220003667448998');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-965220003667448998"/>
+	</a>
+&nbsp;<span class="meta">Scenario Libraries </span>
+	<div class="hidden" id="-965220003667448998"><div class="included">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('2393178171000232344');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2393178171000232344"/>
+	</a>
+&nbsp;<span class="meta">Included page: <a href="MonopolyStories.ScenarioLibrary">.MonopolyStories.ScenarioLibrary</a> <a href="MonopolyStories.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="2393178171000232344"><table border="1" cellspacing="0" _TABLENUMBER=6000066826758954039>
+<tr><td>scenario</td>
+<td>Given a standard Monopoly Board</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8882664282698123053>
+<tr><td>scenario</td>
+<td>Given _ starting on _</td>
+<td colspan="2">playerName,locationName</td>
+</tr>
+<tr><td>createPlayerName</td>
+<td>@playerName</td>
+<td>onLocationNamed</td>
+<td>@locationName</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<br/><div class="setup">
+	<div style="float: right;" class="meta"><a href="javascript:expandAll();">Expand All</a> | <a href="javascript:collapseAll();">Collapse All</a></div>
+	<a href="javascript:toggleCollapsable('-7074048419555206307');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-7074048419555206307"/>
+	</a>
+&nbsp;<span class="meta">Set Up: <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp">.MonopolyStories.BasicPlayerMovementExamples.SetUp</a> <a href="MonopolyStories.BasicPlayerMovementExamples.SetUp?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="-7074048419555206307"><table border="1" cellspacing="0" _TABLENUMBER=7531526787932742402>
+<tr><td>import</td>
+</tr>
+<tr><td>com.om.monopoly</td>
+</tr>
+</table>
+<br/><table class="plain_text_table" _TABLENUMBER=4763747818443834066><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=pass>Given a standard Monopoly Board</td>
+<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-1668376977914815424');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-1668376977914815424"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-1668376977914815424"><table border="1" cellspacing="0" _TABLENUMBER=1219389347957231801 table_name="scriptTable_3_0/scriptTable_0">
+<tr><td>scenario</td>
+<td>Given a standard Monopoly Board</td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table><br/><table border="1" cellspacing="0" _TABLENUMBER=210496385360546877>
+<tr><td>script</td>
+<td><span class="pass">MonopolyFixture</span></td>
+</tr>
+</table>
+</div>
+</div>
+<table class="plain_text_table" _TABLENUMBER=9120887257630665575><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=fail>Given Horse starting on Go</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('4411823005197669717');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img4411823005197669717"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="4411823005197669717"><table border="1" cellspacing="0" _TABLENUMBER=3110778454205430289 table_name="scriptTable_5_0/scriptTable_1">
+<tr><td>scenario</td>
+<td>Given _ starting on _</td>
+<td colspan="2">playerName,locationName</td>
+</tr>
+<tr><td>createPlayerName <span class="error">Method createPlayerNameOnLocationNamed[2] not found in com.om.monopoly.MonopolyFixture.</span></td>
+<td>Horse</td>
+<td>onLocationNamed</td>
+<td>Go</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>and Dice always returning 7 <span class="error">Method andDiceAlwaysReturning7[0] not found in com.om.monopoly.MonopolyFixture.</span></td>
+</tr>
+<tr><td>When Horse takes a turn <span class="error">Method WhenHorseTakesATurn[0] not found in com.om.monopoly.MonopolyFixture.</span></td>
+</tr>
+<tr><td>Then Horse will end up on "Community Chess" <span class="error">Method ThenHorseWillEndUpOnCommunityChess[0] not found in com.om.monopoly.MonopolyFixture.</span></td>
+</tr>
+</table>]]></content>
+    <relativePageName>MovingFromGoExample</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a standard Monopoly Board]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given _ starting on _]]></col>
+                    <col><![CDATA[playerName,locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createPlayerName]]></col>
+                    <col><![CDATA[@playerName]]></col>
+                    <col><![CDATA[onLocationNamed]]></col>
+                    <col><![CDATA[@locationName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_2</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.om.monopoly]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_3</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given a standard Monopoly Board]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_3_0/scriptTable_0)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_3_0/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given a standard Monopoly Board]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_4</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(MonopolyFixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_5</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given Horse starting on Go]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_5_0/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and Dice always returning 7 error(Method andDiceAlwaysReturning7[0] not found in com.om.monopoly.MonopolyFixture.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When Horse takes a turn error(Method WhenHorseTakesATurn[0] not found in com.om.monopoly.MonopolyFixture.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then Horse will end up on "Community Chess" error(Method ThenHorseWillEndUpOnCommunityChess[0] not found in com.om.monopoly.MonopolyFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_5_0/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given _ starting on _]]></col>
+                    <col><![CDATA[playerName,locationName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[createPlayerName error(Method createPlayerNameOnLocationNamed[2] not found in com.om.monopoly.MonopolyFixture.)]]></col>
+                    <col><![CDATA[Horse]]></col>
+                    <col><![CDATA[onLocationNamed]]></col>
+                    <col><![CDATA[Go]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_2_0, import, com.om.monopoly]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_4_0, make, scriptTableActor, MonopolyFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_4_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[MonopolyFixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(MonopolyFixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_5_0/scriptTable_1_0, call, scriptTableActor, createPlayerNameOnLocationNamed, Horse, Go]]]></instruction>
+        <slimResult><![CDATA[!error:Method createPlayerNameOnLocationNamed[2] not found in com.om.monopoly.MonopolyFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method createPlayerNameOnLocationNamed[2] not found in com.om.monopoly.MonopolyFixture.]]></actual>
+                              <expected><![CDATA[createPlayerName]]></expected>
+                              <evaluationMessage><![CDATA[createPlayerName error(Method createPlayerNameOnLocationNamed[2] not found in com.om.monopoly.MonopolyFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_5_1, call, scriptTableActor, andDiceAlwaysReturning7]]]></instruction>
+        <slimResult><![CDATA[!error:Method andDiceAlwaysReturning7[0] not found in com.om.monopoly.MonopolyFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method andDiceAlwaysReturning7[0] not found in com.om.monopoly.MonopolyFixture.]]></actual>
+                              <expected><![CDATA[and Dice always returning 7]]></expected>
+                              <evaluationMessage><![CDATA[and Dice always returning 7 error(Method andDiceAlwaysReturning7[0] not found in com.om.monopoly.MonopolyFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_5_2, call, scriptTableActor, WhenHorseTakesATurn]]]></instruction>
+        <slimResult><![CDATA[!error:Method WhenHorseTakesATurn[0] not found in com.om.monopoly.MonopolyFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method WhenHorseTakesATurn[0] not found in com.om.monopoly.MonopolyFixture.]]></actual>
+                              <expected><![CDATA[When Horse takes a turn]]></expected>
+                              <evaluationMessage><![CDATA[When Horse takes a turn error(Method WhenHorseTakesATurn[0] not found in com.om.monopoly.MonopolyFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_5_3, call, scriptTableActor, ThenHorseWillEndUpOnCommunityChess]]]></instruction>
+        <slimResult><![CDATA[!error:Method ThenHorseWillEndUpOnCommunityChess[0] not found in com.om.monopoly.MonopolyFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_5_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method ThenHorseWillEndUpOnCommunityChess[0] not found in com.om.monopoly.MonopolyFixture.]]></actual>
+                              <expected><![CDATA[Then Horse will end up on "Community Chess"]]></expected>
+                              <evaluationMessage><![CDATA[Then Horse will end up on "Community Chess" error(Method ThenHorseWillEndUpOnCommunityChess[0] not found in com.om.monopoly.MonopolyFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

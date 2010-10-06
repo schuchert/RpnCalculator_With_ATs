@@ -1,0 +1,829 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100403</FitNesseVersion>
+  <rootPath>ProgrammingExample</rootPath>
+    <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>24</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0" _TABLENUMBER=7585061210059065881>
+<tr><td>import</td>
+</tr>
+<tr><td>com.statefarm.rpn.fixtures</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=357237335602925985>
+<tr><td>scenario</td>
+<td>Given an RpnCalculator</td>
+</tr>
+<tr><td colspan="2">reset calculator</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8872017117959807447>
+<tr><td>scenario</td>
+<td>When creating a program</td>
+</tr>
+<tr><td colspan="2">start program</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=92708275331564902>
+<tr><td>scenario</td>
+<td>with operator _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4702865945281092458>
+<tr><td>scenario</td>
+<td>and then saving that as _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>save program as</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7936983732528516653>
+<tr><td>scenario</td>
+<td>The the operator _ should be found</td>
+<td>operatorName</td>
+</tr>
+<tr><td>check</td>
+<td>operator exists</td>
+<td>@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=8662292548547677867>
+<tr><td>scenario</td>
+<td>Given the previous RpnCalculator</td>
+</tr>
+<tr><td colspan="2">use existing calculator</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3563451086517660172>
+<tr><td>scenario</td>
+<td>and then entering _</td>
+<td>value</td>
+</tr>
+<tr><td>enter</td>
+<td colspan="2">@value</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2501230798559188708>
+<tr><td>scenario</td>
+<td>When executing _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>execute</td>
+<td colspan="2">@operatorName</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=4639152316059054636>
+<tr><td>scenario</td>
+<td>Then the result should be _</td>
+<td>expected</td>
+</tr>
+<tr><td>check</td>
+<td>xRegister</td>
+<td>@expected</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1813338957317271693>
+<tr><td>script</td>
+<td><span class="pass">RpnCalculatorFixture</span></td>
+</tr>
+</table>
+<br/><table class="plain_text_table" _TABLENUMBER=3844963514294373453><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=fail>Given an RpnCalculator</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5726353656713875624');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5726353656713875624"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-5726353656713875624"><table border="1" cellspacing="0" _TABLENUMBER=6458186195269289036 table_name="scriptTable_11_0/scriptTable_1">
+<tr><td>scenario</td>
+<td>Given an RpnCalculator</td>
+</tr>
+<tr><td colspan="2">reset calculator <span class="error">Method resetCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>When creating a program</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6343115748765625033');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6343115748765625033"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-6343115748765625033"><table border="1" cellspacing="0" _TABLENUMBER=8659759482233511510 table_name="scriptTable_11_1/scriptTable_2">
+<tr><td>scenario</td>
+<td>When creating a program</td>
+</tr>
+<tr><td colspan="2">start program <span class="error">Method startProgram[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>with operator _+</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-8091472679951380748');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-8091472679951380748"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-8091472679951380748"><table border="1" cellspacing="0" _TABLENUMBER=3771394451910578482 table_name="scriptTable_11_2/scriptTable_3">
+<tr><td>scenario</td>
+<td>with operator _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>add to program <span class="error">Method addToProgram[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+<td colspan="2">_+</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>and operator _/ <span class="error">Method andOperator_[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+<tr><td class=fail>and then saving that as _+/</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-9204566710374922875');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-9204566710374922875"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-9204566710374922875"><table border="1" cellspacing="0" _TABLENUMBER=4201064892096710498 table_name="scriptTable_11_4/scriptTable_4">
+<tr><td>scenario</td>
+<td>and then saving that as _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>save program as <span class="error">Method saveProgramAs[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+<td colspan="2">_+/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>Then the operator _+/ should be found <span class="error">Method ThenTheOperator_ShouldBeFound[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+</table><br/><table class="plain_text_table" _TABLENUMBER=7094609577654687699><tr class="hidden"><td>script</td>
+</tr>
+<tr><td class=fail>Given the previous RpnCalculator</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-2935383953091271742');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2935383953091271742"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="-2935383953091271742"><table border="1" cellspacing="0" _TABLENUMBER=3018087830658192317 table_name="scriptTable_12_0/scriptTable_6">
+<tr><td>scenario</td>
+<td>Given the previous RpnCalculator</td>
+</tr>
+<tr><td colspan="2">use existing calculator <span class="error">Method useExistingCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>and then entering 4</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('2430202371867214335');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img2430202371867214335"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="2430202371867214335"><table border="1" cellspacing="0" _TABLENUMBER=7630689992321863114 table_name="scriptTable_12_1/scriptTable_7">
+<tr><td>scenario</td>
+<td>and then entering _</td>
+<td>value</td>
+</tr>
+<tr><td>enter <span class="error">Method enter[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+<td colspan="2">4</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td>and 7 <span class="error">Method and7[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+<tr><td>and 9 <span class="error">Method and9[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+<tr><td class=fail>When executing _+/</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('8006357316798756833');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8006357316798756833"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="8006357316798756833"><table border="1" cellspacing="0" _TABLENUMBER=9083825508090208636 table_name="scriptTable_12_4/scriptTable_8">
+<tr><td>scenario</td>
+<td>When executing _</td>
+<td>operatorName</td>
+</tr>
+<tr><td>execute <span class="error">Method execute[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+<td colspan="2">_+/</td>
+</tr>
+</table></div>
+</div></TD></tr>
+<tr><td class=fail>Then the result should be 0.25</td>
+<TD class=fail><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('8481446540911606821');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img8481446540911606821"/>
+	</a>
+	<span id="test_status" class=fail>Scenario</span>
+	<div class="hidden" id="8481446540911606821"><table border="1" cellspacing="0" _TABLENUMBER=374122834470671601 table_name="scriptTable_12_5/scriptTable_9">
+<tr><td>scenario</td>
+<td>Then the result should be _</td>
+<td>expected</td>
+</tr>
+<tr><td>check</td>
+<td>xRegister</td>
+<td>0.25 <span class="error">Method xRegister[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.</span></td>
+</tr>
+</table></div>
+</div></TD></tr>
+</table>]]></content>
+    <relativePageName>ProgrammingExample</relativePageName>
+    
+        <tables>
+            <table>
+        <name>import_0</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.statefarm.rpn.fixtures]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When creating a program]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start program]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with operator _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then saving that as _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save program as]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[The the operator _ should be found]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[operator exists]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[use existing calculator]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then entering _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter]]></col>
+                    <col><![CDATA[@value]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When executing _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[execute]]></col>
+                    <col><![CDATA[@operatorName]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the result should be _]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[xRegister]]></col>
+                    <col><![CDATA[@expected]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_10</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(RpnCalculatorFixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_0/scriptTable_1)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When creating a program]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_1/scriptTable_2)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[with operator _+]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_2/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and operator _/ error(Method andOperator_[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then saving that as _+/]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_11_4/scriptTable_4)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then the operator _+/ should be found error(Method ThenTheOperator_ShouldBeFound[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_0/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given an RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[reset calculator error(Method resetCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_1/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When creating a program]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start program error(Method startProgram[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_2/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[with operator _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[add to program error(Method addToProgram[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+                    <col><![CDATA[_+]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_11_4/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then saving that as _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[save program as error(Method saveProgramAs[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+                    <col><![CDATA[_+/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_12_0/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and then entering 4]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_12_1/scriptTable_7)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 7 error(Method and7[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[and 9 error(Method and9[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When executing _+/]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_12_4/scriptTable_8)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then the result should be 0.25]]></col>
+                    <col><![CDATA[fail(scenario:scriptTable_12_5/scriptTable_9)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12_0/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given the previous RpnCalculator]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[use existing calculator error(Method useExistingCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12_1/scriptTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[and then entering _]]></col>
+                    <col><![CDATA[value]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[enter error(Method enter[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+                    <col><![CDATA[4]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12_4/scriptTable_8</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When executing _]]></col>
+                    <col><![CDATA[operatorName]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[execute error(Method execute[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+                    <col><![CDATA[_+/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_12_5/scriptTable_9</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the result should be _]]></col>
+                    <col><![CDATA[expected]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[check]]></col>
+                    <col><![CDATA[xRegister]]></col>
+                    <col><![CDATA[0.25 error(Method xRegister[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_0_0, import, com.statefarm.rpn.fixtures]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_10_0, make, scriptTableActor, RpnCalculatorFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_10_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[RpnCalculatorFixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(RpnCalculatorFixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_0/scriptTable_1_0, call, scriptTableActor, resetCalculator]]]></instruction>
+        <slimResult><![CDATA[!error:Method resetCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_0/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method resetCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[reset calculator]]></expected>
+                              <evaluationMessage><![CDATA[reset calculator error(Method resetCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_1/scriptTable_2_0, call, scriptTableActor, startProgram]]]></instruction>
+        <slimResult><![CDATA[!error:Method startProgram[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_1/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method startProgram[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[start program]]></expected>
+                              <evaluationMessage><![CDATA[start program error(Method startProgram[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_2/scriptTable_3_0, call, scriptTableActor, addToProgram, _+]]]></instruction>
+        <slimResult><![CDATA[!error:Method addToProgram[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_2/scriptTable_3_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_2/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method addToProgram[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[add to program]]></expected>
+                              <evaluationMessage><![CDATA[add to program error(Method addToProgram[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_3, call, scriptTableActor, andOperator_]]]></instruction>
+        <slimResult><![CDATA[!error:Method andOperator_[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method andOperator_[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[and operator _/]]></expected>
+                              <evaluationMessage><![CDATA[and operator _/ error(Method andOperator_[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_4/scriptTable_4_0, call, scriptTableActor, saveProgramAs, _+/]]]></instruction>
+        <slimResult><![CDATA[!error:Method saveProgramAs[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_4/scriptTable_4_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_4/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method saveProgramAs[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[save program as]]></expected>
+                              <evaluationMessage><![CDATA[save program as error(Method saveProgramAs[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_11_5, call, scriptTableActor, ThenTheOperator_ShouldBeFound]]]></instruction>
+        <slimResult><![CDATA[!error:Method ThenTheOperator_ShouldBeFound[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_11_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method ThenTheOperator_ShouldBeFound[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[Then the operator _+/ should be found]]></expected>
+                              <evaluationMessage><![CDATA[Then the operator _+/ should be found error(Method ThenTheOperator_ShouldBeFound[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_0/scriptTable_6_0, call, scriptTableActor, useExistingCalculator]]]></instruction>
+        <slimResult><![CDATA[!error:Method useExistingCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_0/scriptTable_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method useExistingCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[use existing calculator]]></expected>
+                              <evaluationMessage><![CDATA[use existing calculator error(Method useExistingCalculator[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_1/scriptTable_7_0, call, scriptTableActor, enter, 4]]]></instruction>
+        <slimResult><![CDATA[!error:Method enter[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_1/scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_1/scriptTable_7_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method enter[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[enter]]></expected>
+                              <evaluationMessage><![CDATA[enter error(Method enter[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_2, call, scriptTableActor, and7]]]></instruction>
+        <slimResult><![CDATA[!error:Method and7[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method and7[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[and 7]]></expected>
+                              <evaluationMessage><![CDATA[and 7 error(Method and7[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_3, call, scriptTableActor, and9]]]></instruction>
+        <slimResult><![CDATA[!error:Method and9[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method and9[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[and 9]]></expected>
+                              <evaluationMessage><![CDATA[and 9 error(Method and9[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_4/scriptTable_8_0, call, scriptTableActor, execute, _+/]]]></instruction>
+        <slimResult><![CDATA[!error:Method execute[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_4/scriptTable_8_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_4/scriptTable_8_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[!error:Method execute[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[execute]]></expected>
+                              <evaluationMessage><![CDATA[execute error(Method execute[1] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_12_5/scriptTable_9_0, call, scriptTableActor, xRegister]]]></instruction>
+        <slimResult><![CDATA[!error:Method xRegister[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_12_5/scriptTable_9_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ReturnedValueExpectation</type>
+                    <actual><![CDATA[!error:Method xRegister[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.]]></actual>
+                              <expected><![CDATA[0.25]]></expected>
+                              <evaluationMessage><![CDATA[0.25 error(Method xRegister[0] not found in com.statefarm.rpn.fixtures.RpnCalculatorFixture.)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+
